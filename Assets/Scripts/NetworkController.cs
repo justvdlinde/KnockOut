@@ -27,18 +27,23 @@ public class NetworkController : MonoBehaviour {
     }
 
     void OnJoinedRoom() {
+        //playerSpawn.transform.position = spawnPoints[PhotonNetwork.countOfPlayers].position;
+        //playerSpawn.transform.rotation = spawnPoints[PhotonNetwork.countOfPlayers].rotation;
+
         PhotonNetwork.Instantiate("NetworkedPlayer", Vector3.zero, Quaternion.identity, 0);
         PhotonNetwork.Instantiate("NetworkedLeftGlove", Vector3.zero, Quaternion.identity, 0);
         PhotonNetwork.Instantiate("NetworkedRightGlove", Vector3.zero, Quaternion.identity, 0);
         PhotonNetwork.Instantiate("Shield", Vector3.zero, Quaternion.identity, 0);
 
-        if (PhotonNetwork.countOfPlayers == 1) {
+        if (PhotonNetwork.countOfPlayers == 1)
+        {
             Debug.Log("Moving to spawnpoint 1");
             playerSpawn.transform.position = spawnPoints[0].position;
             playerSpawn.transform.rotation = spawnPoints[0].rotation;
         }
 
-        if (PhotonNetwork.countOfPlayers == 2) {
+        if (PhotonNetwork.countOfPlayers == 2)
+        {
             Debug.Log("Moving to spawnpoint 2");
             playerSpawn.transform.position = spawnPoints[1].position;
             playerSpawn.transform.rotation = spawnPoints[1].rotation;
