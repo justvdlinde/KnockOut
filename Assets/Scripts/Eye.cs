@@ -34,4 +34,13 @@ public class Eye : Photon.MonoBehaviour {
         target = FindObjectOfType<Player>().transform;
     }
 
+    private void OnTriggerEnter(Collider other) {
+        EyeFocusTarget focus = other.GetComponent<EyeFocusTarget>();
+        if(focus.transform.parent != transform.parent) {
+            target = focus.transform;
+            Debug.Log("setting target");
+            GetComponent<Collider>().enabled = false;
+        }
+    }
+
 }
