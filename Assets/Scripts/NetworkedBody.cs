@@ -9,6 +9,9 @@ public class NetworkedBody : Photon.MonoBehaviour {
     public Transform playerGlobal;
     public Transform playerLocal;
 
+    Vector3 realPosition = Vector3.zero;
+    Quaternion realRotation = Quaternion.identity;
+
     public bool showBody = false;
 
     void Start() {
@@ -18,13 +21,10 @@ public class NetworkedBody : Photon.MonoBehaviour {
             playerLocal = playerGlobal.Find("OVRCameraRig/TrackingSpace/CenterEyeAnchor");
             transform.SetParent(playerLocal, false);
             transform.localPosition = Vector3.zero;
-            avatar.SetActive(showBody);
+            //avatar.SetActive(showBody);
         }
     }
 
-    private void Update() {
-
-    }
 
     void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
         if (stream.isWriting){
@@ -34,8 +34,8 @@ public class NetworkedBody : Photon.MonoBehaviour {
             stream.SendNext(playerLocal.localRotation);
         }
         else {
-            transform.position = (Vector3)stream.ReceiveNext();
-            transform.rotation = (Quaternion)stream.ReceiveNext();
+            realPosition = (Vector3)stream.ReceiveNext();
+            realRotation = (Quaternion)stream.ReceiveNext();
             avatar.transform.position = (Vector3)stream.ReceiveNext();
             avatar.transform.localRotation = (Quaternion)stream.ReceiveNext();
         }

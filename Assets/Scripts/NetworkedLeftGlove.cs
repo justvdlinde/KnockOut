@@ -9,6 +9,9 @@ public class NetworkedLeftGlove : Photon.MonoBehaviour {
     public Transform playerGlobal;
     public Transform playerLocal;
 
+    Vector3 realPosition = Vector3.zero;
+    Quaternion realRotation = Quaternion.identity;
+
     void Start(){
         Debug.Log("Body Instantiated");
         if (photonView.isMine){
@@ -20,6 +23,7 @@ public class NetworkedLeftGlove : Photon.MonoBehaviour {
         }
     }
 
+
     void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
         if (stream.isWriting){
             stream.SendNext(playerGlobal.position);
@@ -28,8 +32,8 @@ public class NetworkedLeftGlove : Photon.MonoBehaviour {
             stream.SendNext(playerLocal.localRotation);
         }
         else {
-            transform.position = (Vector3)stream.ReceiveNext();
-            transform.rotation = (Quaternion)stream.ReceiveNext();
+            realPosition = (Vector3)stream.ReceiveNext();
+            realRotation = (Quaternion)stream.ReceiveNext();
             leftGlove.transform.position = (Vector3)stream.ReceiveNext();
             leftGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
         }
