@@ -9,6 +9,9 @@ public class Glove : MonoBehaviour {
     public bool isEnabled;
     public float chargeMax = 5;
 
+    [SerializeField]
+    private OVRInput.Controller m_controller;
+
     private Vector3 positionPrevFrame;
     /// <summary>
     /// degene die beweegt in de scene
@@ -42,7 +45,8 @@ public class Glove : MonoBehaviour {
     }
 
     public float CalculateVelocity(Vector3 position, Vector3 positionPrevFrame) {
-        return (position - positionPrevFrame).magnitude / Time.deltaTime;
+        //return (position - positionPrevFrame).magnitude / Time.deltaTime;
+        return OVRInput.GetLocalControllerVelocity(m_controller).magnitude;
     }
 
     public void AddCharge(float charge) {
