@@ -237,6 +237,8 @@ GameObject:
   - component: {fileID: 4613458428377940}
   - component: {fileID: 54739276861227614}
   - component: {fileID: 59692375826165384}
+  - component: {fileID: 65977120082844040}
+  - component: {fileID: 114024659422320212}
   m_Layer: 0
   m_Name: Midrif
   m_TagString: Untagged
@@ -252,6 +254,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4286937224150944}
+  - component: {fileID: 136172302922572340}
+  - component: {fileID: 114503115336655594}
   m_Layer: 0
   m_Name: Skip
   m_TagString: Untagged
@@ -283,6 +287,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4920848045829086}
   - component: {fileID: 54354020453210736}
+  - component: {fileID: 65163009628396030}
+  - component: {fileID: 114417937793173430}
   m_Layer: 0
   m_Name: Hips
   m_TagString: Untagged
@@ -538,7 +544,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1075363552285296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3833848, y: 2.0672302, z: -1.5788151}
+  m_LocalPosition: {x: -1.6338801, y: 3.102, z: 0.76613617}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4709568601054364}
@@ -671,7 +677,7 @@ HingeJoint:
   m_Anchor: {x: -1.5, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.0534053, y: 1.2647014, z: 0.00053453457}
+  m_ConnectedAnchor: {x: -4.0534053, y: 1.2647023, z: 0.00053453457}
   m_UseSpring: 1
   m_Spring:
     spring: 100
@@ -695,6 +701,30 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!65 &65163009628396030
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726039134913738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.52, y: 3.01, z: 3.3}
+  m_Center: {x: 0.99, y: -0.06, z: 0}
+--- !u!65 &65977120082844040
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630400414144162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 4.97}
+  m_Center: {x: 1.26, y: 1.05, z: 0}
 --- !u!95 &95832848247257890
 Animator:
   serializedVersion: 3
@@ -712,6 +742,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114024659422320212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630400414144162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbe80ec0db8624469f1d3ba7866e251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageMultiplier: {fileID: 11400000, guid: 1007d5dd1d0fd464b9b0740bb8cd854b, type: 2}
+  damageMax: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23, type: 2}
+  damagePerVelocity: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b, type: 2}
 --- !u!114 &114216627904236530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -822,6 +866,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 100
   healthPoints: 0
+--- !u!114 &114417937793173430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726039134913738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbe80ec0db8624469f1d3ba7866e251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageMultiplier: {fileID: 11400000, guid: eb0ed86ff0d35694aaeb24bc818ad1fc, type: 2}
+  damageMax: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23, type: 2}
+  damagePerVelocity: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b, type: 2}
 --- !u!114 &114473019358834966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -837,6 +895,20 @@ MonoBehaviour:
   playerGlobal: {fileID: 0}
   playerLocal: {fileID: 0}
   showBody: 0
+--- !u!114 &114503115336655594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670886409745204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbe80ec0db8624469f1d3ba7866e251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageMultiplier: {fileID: 11400000, guid: 50b40a859eb20a546913b9786aa90a6a, type: 2}
+  damageMax: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23, type: 2}
+  damagePerVelocity: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b, type: 2}
 --- !u!114 &114606815309785148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -860,8 +932,8 @@ MonoBehaviour:
   - {fileID: 114473019358834966}
   - {fileID: 114253852689016538}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 0
-  instantiationId: -1
+  viewIdField: 1
+  instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!114 &114851492299813896
@@ -920,6 +992,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 100
   m_Center: {x: -0.6610005, y: 13.585819, z: 0.94483376}
+--- !u!136 &136172302922572340
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670886409745204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.42
+  m_Height: 5.64
+  m_Direction: 0
+  m_Center: {x: -2.16, y: 0, z: 0}
 --- !u!136 &136214767983084248
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1252,7 +1337,7 @@ CharacterJoint:
   m_Anchor: {x: 1.38, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.6306482, y: -0.59273744, z: 0.00000014901161}
+  m_ConnectedAnchor: {x: 0.63064635, y: -0.5927365, z: 0.00000014901161}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
