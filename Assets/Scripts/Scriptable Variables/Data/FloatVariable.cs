@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FloatVariable : ScriptableObject, ISerializationCallbackReceiver {
 
-    //[NonSerialized]
+    [NonSerialized]
     public float runTimeValue;
     public float initialValue;  
 
