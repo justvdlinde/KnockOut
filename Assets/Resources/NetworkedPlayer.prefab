@@ -932,8 +932,8 @@ MonoBehaviour:
   - {fileID: 114473019358834966}
   - {fileID: 114253852689016538}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 1
-  instantiationId: 1
+  viewIdField: 0
+  instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!114 &114851492299813896

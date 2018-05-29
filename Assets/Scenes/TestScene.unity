@@ -162,64 +162,9 @@ Prefab:
       propertyPath: instantiationId
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114503115336655594, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damageMultiplier
-      value: 
-      objectReference: {fileID: 11400000, guid: 50b40a859eb20a546913b9786aa90a6a,
-        type: 2}
-    - target: {fileID: 114503115336655594, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damageMax
-      value: 
-      objectReference: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23,
-        type: 2}
-    - target: {fileID: 114503115336655594, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damagePerVelocity
-      value: 
-      objectReference: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b,
-        type: 2}
-    - target: {fileID: 114417937793173430, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damageMultiplier
-      value: 
-      objectReference: {fileID: 11400000, guid: eb0ed86ff0d35694aaeb24bc818ad1fc,
-        type: 2}
-    - target: {fileID: 114417937793173430, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damageMax
-      value: 
-      objectReference: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23,
-        type: 2}
-    - target: {fileID: 114417937793173430, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-        type: 2}
-      propertyPath: damagePerVelocity
-      value: 
-      objectReference: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ce8e9d455d463f42b52c36a2f96979b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &338535222 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1630400414144162, guid: 7ce8e9d455d463f42b52c36a2f96979b,
-    type: 2}
-  m_PrefabInternal: {fileID: 338535220}
---- !u!114 &338535223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 338535222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecbe80ec0db8624469f1d3ba7866e251, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageMultiplier: {fileID: 11400000, guid: 1007d5dd1d0fd464b9b0740bb8cd854b, type: 2}
-  damageMax: {fileID: 11400000, guid: 56efb4dc5b737634bab6f5cd80b08b23, type: 2}
-  damagePerVelocity: {fileID: 11400000, guid: 2001ef88a451cf04a8b439df6984941b, type: 2}
 --- !u!1 &490805735
 GameObject:
   m_ObjectHideFlags: 0
