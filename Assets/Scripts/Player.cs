@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    public float startingHealth = 100;
-    // syncVar?
-    public float healthPoints;
+    public FloatVariable healthPoints;
 
     private void Start() {
-        healthPoints = startingHealth;
-
         foreach(HittableLimb limb in GetComponentsInChildren<HittableLimb>()) 
             limb.onHit += ProcessHit;
     }
 
     public void ProcessHit(PunchInfo info, float damage) {
-        healthPoints -= damage;
+        healthPoints.runTimeValue -= damage;
         Debug.Log("damage: " + damage);
-        if (healthPoints <= 0)
+        if (healthPoints.runTimeValue <= 0)
             KnockOut();
     }
 
