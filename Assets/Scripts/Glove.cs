@@ -22,7 +22,6 @@ public class Glove : MonoBehaviour {
     private void Start()
     {
         gloveParent = transform.parent.parent;
-        Debug.Log(gloveParent.name);
     }
 
     private void OnTriggerEnter(Collider collider) {
@@ -40,9 +39,9 @@ public class Glove : MonoBehaviour {
         punchableObject.Hit(new PunchInfo(collider, gloveParent.position, velocity, charge.runTimeValue));
     }
 
-    private void LateUpdate() {
-        positionPrevFrame = gloveParent.position;
-    }
+    //private void LateUpdate() {
+    //    positionPrevFrame = gloveParent.position;
+    //}
 
     public float CalculateVelocity(Vector3 position, Vector3 positionPrevFrame) {
         //return (position - positionPrevFrame).magnitude / Time.deltaTime;

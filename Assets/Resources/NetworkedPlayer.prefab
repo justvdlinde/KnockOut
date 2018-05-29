@@ -36,10 +36,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4845727957011784}
   - component: {fileID: 114606815309785148}
-  - component: {fileID: 114473019358834966}
+  - component: {fileID: 114253852689016538}
   - component: {fileID: 114413127903125562}
   - component: {fileID: 136214767983084248}
-  - component: {fileID: 114253852689016538}
   m_Layer: 0
   m_Name: NetworkedPlayer
   m_TagString: Untagged
@@ -220,6 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4709568601054364}
   - component: {fileID: 95832848247257890}
+  - component: {fileID: 114820581303073678}
   m_Layer: 0
   m_Name: MrEaster
   m_TagString: Untagged
@@ -537,14 +537,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1075363552285296}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3833848, y: 2.0672302, z: -1.5788151}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4709568601054364}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4856735021399870
 Transform:
   m_ObjectHideFlags: 1
@@ -671,7 +671,7 @@ HingeJoint:
   m_Anchor: {x: -1.5, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.0534053, y: 1.2647014, z: 0.00053453457}
+  m_ConnectedAnchor: {x: -4.0534062, y: 1.2647014, z: 0.00053405773}
   m_UseSpring: 1
   m_Spring:
     spring: 100
@@ -822,21 +822,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 100
   healthPoints: 0
---- !u!114 &114473019358834966
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1075363552285296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9828a412394988b4d8b6a81d3cb733ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  avatar: {fileID: 1624991914377040}
-  playerGlobal: {fileID: 0}
-  playerLocal: {fileID: 0}
-  showBody: 0
 --- !u!114 &114606815309785148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -857,13 +842,26 @@ MonoBehaviour:
   onSerializeRigidBodyOption: 2
   ownershipTransfer: 0
   ObservedComponents:
-  - {fileID: 114473019358834966}
   - {fileID: 114253852689016538}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &114820581303073678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624991914377040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9828a412394988b4d8b6a81d3cb733ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  localBody: {fileID: 0}
+  showBody: 0
 --- !u!114 &114851492299813896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1252,7 +1250,7 @@ CharacterJoint:
   m_Anchor: {x: 1.38, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.6306482, y: -0.59273744, z: 0.00000014901161}
+  m_ConnectedAnchor: {x: 0.63064724, y: -0.5927375, z: 0.000000059604645}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
