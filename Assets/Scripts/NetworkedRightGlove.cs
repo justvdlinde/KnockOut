@@ -29,17 +29,17 @@ public class NetworkedRightGlove : Photon.MonoBehaviour {
     {
         if (stream.isWriting)
         {
-            //stream.SendNext(playerGlobal.position);
-            //stream.SendNext(playerGlobal.rotation);
-            //stream.SendNext(playerLocal.position);
-            //stream.SendNext(playerLocal.localRotation);
+            stream.SendNext(playerGlobal.position);
+            stream.SendNext(playerGlobal.rotation);
+            stream.SendNext(playerLocal.position);
+            stream.SendNext(playerLocal.localRotation);
         }
         else
         {
-            //realPosition = (Vector3)stream.ReceiveNext();
-            //realRotation = (Quaternion)stream.ReceiveNext();
-            //rightGlove.transform.position = (Vector3)stream.ReceiveNext();
-            //rightGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
+            realPosition = (Vector3)stream.ReceiveNext();
+            realRotation = (Quaternion)stream.ReceiveNext();
+            rightGlove.transform.position = (Vector3)stream.ReceiveNext();
+            rightGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
         }
     }
 }

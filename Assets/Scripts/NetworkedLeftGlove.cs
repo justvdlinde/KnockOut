@@ -16,7 +16,7 @@ public class NetworkedLeftGlove : Photon.MonoBehaviour {
         if (photonView.isMine){
             playerGlobal = GameObject.Find("OVRPlayerController").transform;
             playerLocal = playerGlobal.Find("OVRCameraRig/TrackingSpace/LeftHandAnchor");
-            transform.parent.SetParent(playerLocal, false);
+            transform.SetParent(playerLocal, false);
             transform.localPosition = Vector3.zero;
             // avatar.SetActive(false);
         }
@@ -32,17 +32,17 @@ public class NetworkedLeftGlove : Photon.MonoBehaviour {
     {
         if (stream.isWriting)
         {
-            //stream.SendNext(playerGlobal.position);
-            //stream.SendNext(playerGlobal.rotation);
-            //stream.SendNext(playerLocal.position);
-            //stream.SendNext(playerLocal.localRotation);
+            stream.SendNext(playerGlobal.position);
+            stream.SendNext(playerGlobal.rotation);
+            stream.SendNext(playerLocal.position);
+            stream.SendNext(playerLocal.localRotation);
         }
         else
         {
-            //realPosition = (Vector3)stream.ReceiveNext();
-            //realRotation = (Quaternion)stream.ReceiveNext();
-            //leftGlove.transform.position = (Vector3)stream.ReceiveNext();
-            //leftGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
+            realPosition = (Vector3)stream.ReceiveNext();
+            realRotation = (Quaternion)stream.ReceiveNext();
+            leftGlove.transform.position = (Vector3)stream.ReceiveNext();
+            leftGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
         }
     }
 }
