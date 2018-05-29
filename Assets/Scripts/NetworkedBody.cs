@@ -15,13 +15,12 @@ public class NetworkedBody : Photon.MonoBehaviour {
     public bool showBody = false;
 
     void Start() {
-        Debug.Log("Body Instantiated");
         if (photonView.isMine) {
             playerGlobal = GameObject.Find("OVRPlayerController").transform;
             playerLocal = playerGlobal.Find("OVRCameraRig/TrackingSpace/CenterEyeAnchor");
             transform.SetParent(playerLocal, false);
             transform.localPosition = Vector3.zero;
-            //avatar.SetActive(showBody);
+            avatar.SetActive(showBody);
         }
     }
 

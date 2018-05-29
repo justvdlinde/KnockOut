@@ -13,11 +13,10 @@ public class NetworkedRightGlove : Photon.MonoBehaviour {
     Quaternion realRotation = Quaternion.identity;
 
     void Start(){
-        Debug.Log("Body Instantiated");
         if (photonView.isMine){
             playerGlobal = GameObject.Find("OVRPlayerController").transform;
             playerLocal = playerGlobal.Find("OVRCameraRig/TrackingSpace/RightHandAnchor");
-            transform.SetParent(playerLocal, false);
+            transform.SetParent(playerLocal, true);
             transform.localPosition = Vector3.zero;
 
             // avatar.SetActive(false);
@@ -26,18 +25,21 @@ public class NetworkedRightGlove : Photon.MonoBehaviour {
 
 
 
-    void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
-        if (stream.isWriting){
-            stream.SendNext(playerGlobal.position);
-            stream.SendNext(playerGlobal.rotation);
-            stream.SendNext(playerLocal.position);
-            stream.SendNext(playerLocal.localRotation);
+    void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.isWriting)
+        {
+            //stream.SendNext(playerGlobal.position);
+            //stream.SendNext(playerGlobal.rotation);
+            //stream.SendNext(playerLocal.position);
+            //stream.SendNext(playerLocal.localRotation);
         }
-        else{
-            realPosition = (Vector3)stream.ReceiveNext();
-            realRotation = (Quaternion)stream.ReceiveNext();
-            rightGlove.transform.position = (Vector3)stream.ReceiveNext();
-            rightGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
+        else
+        {
+            //realPosition = (Vector3)stream.ReceiveNext();
+            //realRotation = (Quaternion)stream.ReceiveNext();
+            //rightGlove.transform.position = (Vector3)stream.ReceiveNext();
+            //rightGlove.transform.localRotation = (Quaternion)stream.ReceiveNext();
         }
     }
 }
