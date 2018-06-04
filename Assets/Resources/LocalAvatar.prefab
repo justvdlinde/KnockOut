@@ -413,6 +413,9 @@ GameObject:
   - component: {fileID: 4474990683020808}
   - component: {fileID: 81298367263298576}
   - component: {fileID: 20859485840514926}
+  - component: {fileID: 114216760034603606}
+  - component: {fileID: 114382618551471446}
+  - component: {fileID: 114467465559230126}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -1562,6 +1565,83 @@ MonoBehaviour:
       - 0
       - 0
       - 0
+--- !u!114 &114216760034603606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: c58b2d26cc9f760458bbadf26377818a, type: 2}
+--- !u!114 &114382618551471446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab5752d6468fc94dbdbecf0ed8c8116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.20518339
+      value: 0.9872649
+      inSlope: 0.16180316
+      outSlope: 0.16180316
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9939575
+      value: 0.0011978149
+      inSlope: -3.0408041
+      outSlope: -3.0408041
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  effectDuration: 0.5
+  effectIntensity: 0.8
+--- !u!114 &114467465559230126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3087a0e2781dcaa49bb7f17dc994d96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 3e105010490b72e4db0f9fb22a848901, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114382618551471446}
+        m_MethodName: ExecuteEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114518972847675312
 MonoBehaviour:
   m_ObjectHideFlags: 1
