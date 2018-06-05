@@ -6,6 +6,8 @@ public class AvatarManager : MonoBehaviour {
 
     private GameObject playerRot;
     private GameObject playerPos;
+    private SkinnedMeshRenderer handLeft;
+    private SkinnedMeshRenderer handRight;
     private SkinnedMeshRenderer playerMesh;
 
 
@@ -25,6 +27,8 @@ public class AvatarManager : MonoBehaviour {
         playerRot = GameObject.Find("body_renderPart_2");
         playerPos = GameObject.Find("body_renderPart_1");
         playerMesh = GameObject.Find("body_renderPart_0").GetComponent<SkinnedMeshRenderer>();
+        handLeft = GameObject.Find("hand_left_renderPart_0").GetComponent<SkinnedMeshRenderer>();
+        handRight = GameObject.Find("hand_right_renderPart_0").GetComponent<SkinnedMeshRenderer>();
         rootRot = GameObject.Find("root")       .transform;
         rootPos = GameObject.Find("chest_JNT")  .transform;
         hackActivated = true;
@@ -38,6 +42,8 @@ public class AvatarManager : MonoBehaviour {
             playerRot.GetComponent<SkinnedMeshRenderer>().enabled = false;
             playerPos.GetComponent<SkinnedMeshRenderer>().enabled = false;
             playerMesh.enabled =                                    false;
+            handLeft.enabled = false;
+            handRight.enabled = false;
         }
     }
 }
