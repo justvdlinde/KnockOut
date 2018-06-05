@@ -922,8 +922,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4742639324559442}
-  - component: {fileID: 136572624660246996}
   - component: {fileID: 114137179606079896}
+  - component: {fileID: 136572624660246996}
   m_Layer: 0
   m_Name: Skip
   m_TagString: Untagged
@@ -3079,8 +3079,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 114333976880381996}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 1
-  instantiationId: 1
+  viewIdField: 0
+  instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!114 &114255827933064418
@@ -3314,7 +3314,7 @@ MonoBehaviour:
       - 0
 --- !u!114 &114598551226159072
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 143252}
@@ -3324,7 +3324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 100
-  healthPoints: {fileID: 0}
+  healthPoints: {fileID: 11400000, guid: 539981cba8224f045a5558e5e6daa132, type: 2}
 --- !u!114 &114687082847080120
 MonoBehaviour:
   m_ObjectHideFlags: 1

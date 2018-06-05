@@ -139,9 +139,9 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
-  m_Range: 10
-  m_SpotAngle: 30
+  m_Intensity: 1
+  m_Range: 115.23
+  m_SpotAngle: 40.5
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -172,11 +172,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163701932}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.46, z: 1.34}
+  m_LocalPosition: {x: -0.304, y: 4.34, z: 1.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &366499433
 GameObject:
@@ -280,15 +280,6 @@ MonoBehaviour:
   leftGlove: {fileID: 4000013364346644, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 2}
   shieldObject: {fileID: 0}
   maxDistanceBetweenGloves: 2
-  yRotation:
-    min: -70
-    max: 70
-  zRotation:
-    min: -70
-    max: 70
-  xRotation:
-    min: -70
-    max: 70
 --- !u!4 &519765696
 Transform:
   m_ObjectHideFlags: 0
@@ -386,7 +377,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4120788359520902, guid: 3f5ea47ec5cbc4347a66de9db03da9c3, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 23414976699953534, guid: 3f5ea47ec5cbc4347a66de9db03da9c3,
         type: 2}
@@ -397,7 +388,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 9b7b992c8d3aa0b44979f38dc9993ce3, type: 2}
+      objectReference: {fileID: 2100000, guid: cad0892e602e1e74184540ab736dde68, type: 2}
     - target: {fileID: 23889220058815834, guid: 3f5ea47ec5cbc4347a66de9db03da9c3,
         type: 2}
       propertyPath: m_Materials.Array.data[3]
