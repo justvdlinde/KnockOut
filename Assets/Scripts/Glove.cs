@@ -9,18 +9,8 @@ public class Glove : MonoBehaviour {
     public bool isEnabled;
     public float chargeMax = 5;
 
-    private Vector3 positionPrevFrame;
-    /// <summary>
-    /// degene die beweegt in de scene
-    /// </summary>
-    private Transform gloveParent;
-
-
-    private void Start()
-    {
-        gloveParent = transform.parent.parent;
-        Debug.Log(gloveParent.name);
-    }
+    [SerializeField]
+    private OVRInput.Controller m_controller;
 
     private void OnTriggerEnter(Collider collider) {
         if (!isEnabled)
@@ -32,17 +22,12 @@ public class Glove : MonoBehaviour {
     }
 
     private void PunchableObjectHit(Collider collider, IPunchable punchableObject) {
-        float velocity = CalculateVelocity(gloveParent.position, positionPrevFrame);
-        print(velocity + "  "  + gloveParent.position + "  "  + positionPrevFrame); 
-        punchableObject.Hit(new PunchInfo(collider, gloveParent.position, velocity, charge.runTimeValue));
+        float velocity = CalculateVelocity();
+        punchableObject.Hit(new PunchInfo(collider, transform.position, velocity, charge.runTimeValue));
     }
 
-    private void LateUpdate() {
-        positionPrevFrame = gloveParent.position;
-    }
-
-    public float CalculateVelocity(Vector3 position, Vector3 positionPrevFrame) {
-        return (position - positionPrevFrame).magnitude / Time.deltaTime;
+    public float CalculateVelocity() {
+        return OVRInput.GetLocalControllerVelocity(m_controller).magnitude;
     }
 
     public void AddCharge(float charge) {
