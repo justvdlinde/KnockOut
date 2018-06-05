@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114781071699658180}
   - component: {fileID: 114518972847675312}
   - component: {fileID: 114439794655998242}
+  - component: {fileID: 114454537672757266}
   m_Layer: 0
   m_Name: LocalAvatar
   m_TagString: Untagged
@@ -1732,6 +1733,19 @@ MonoBehaviour:
   leftGlove: {fileID: 4000013364346644}
   shieldObject: {fileID: 1121658374899834}
   maxDistanceBetweenGloves: 1
+--- !u!114 &114454537672757266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009f9532cc4906442b2cadd0facd9c6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  healthPoints: {fileID: 11400000, guid: 539981cba8224f045a5558e5e6daa132, type: 2}
 --- !u!114 &114518972847675312
 MonoBehaviour:
   m_ObjectHideFlags: 1
