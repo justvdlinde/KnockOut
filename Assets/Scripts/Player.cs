@@ -26,4 +26,8 @@ public class Player : Photon.MonoBehaviour {
     private void KnockOut() {
         Debug.Log("KNOCK-OUT");
     }
+
+    private void OnGUI() {
+        GUI.Label(new Rect(10, 10, 1000, 20), "HP: " + healthPoints.runTimeValue);
+    }
 }
