@@ -7,42 +7,43 @@ public class BlockManager : MonoBehaviour {
     public Transform rightGlove, leftGlove;
     public GameObject shieldObject;
     public float maxDistanceBetweenGloves;
-    public FloatMinMax yRotation, zRotation, xRotation;
 
     private bool isBlocking;
-    
+    private Quaternion shieldRot;
+
     private void Update() {
         isBlocking = IsBlocking();
         shieldObject.SetActive(isBlocking);
-        if(isBlocking)
+        if (isBlocking)
             Block();
     }
 
     private void Block() {
         shieldObject.transform.position = (rightGlove.position + leftGlove.position) / 2;
-        Quaternion rot = Quaternion.Slerp(rightGlove.rotation, leftGlove.rotation, 0.5f);
-        shieldObject.transform.rotation = rot;
+        shieldRot = Quaternion.Slerp(rightGlove.rotation, leftGlove.rotation, 0.5f);
+        shieldObject.transform.rotation = shieldRot;
     }
 
     private bool IsBlocking() {
-        return GloveRequirementsAreMet(); 
+        return DistanceRequirementMet() &&
+               OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0 &&
+               OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > 0;
     }
 
-    private bool GloveRequirementsAreMet() {
+    private bool DistanceRequirementMet() {
         return Vector3.Distance(rightGlove.position, leftGlove.position) < maxDistanceBetweenGloves;
-               //Mathf.Abs(leftGlove.transform.rotation.x - rightGlove.transform.rotation.x) < xRotation &&
-               //Mathf.Abs(leftGlove.transform.rotation.y - rightGlove.transform.rotation.y) < yRotation &&
-               //Mathf.Abs(leftGlove.transform.rotation.z - rightGlove.transform.rotation.z) < zRotation;
     }
 
-    private void OnGUI() {
-        GUILayout.BeginVertical();
-        //GUILayout.Label("isblocking: " + IsBlocking());
-        //GUILayout.Label("charge: " + blockCharge.runTimeValue);
-        //GUILayout.Label("Rot: " + shieldObject.transform.rotation);
-        //    GUILayout.Label("CONDITIONS MET: " + conditionsMet.runTimeValue);
-        //    GUILayout.Label("Distance " + Vector3.Distance(rightGlove.position, leftGlove.position));
-        //    GUILayout.Label("angle dif X " + Mathf.Abs(leftGlove.transform.rotation.x - rightGlove.transform.rotation.x));
-        GUILayout.EndVertical();
-    }
+    //private void OnGUI() {
+    //    GUILayout.BeginVertical();
+    //    //GUILayout.Label("isblocking: " + IsBlocking());
+    //    //GUILayout.Label("charge: " + blockCharge.runTimeValue);
+    //    //GUILayout.Label("Rot: " + shieldObject.transform.rotation);
+    //    //GUILayout.Label("DISTANCE MET: " + DistanceRequirementMet());
+    //    //GUILayout.Label("Distance " + Vector3.Distance(rightGlove.position, leftGlove.position));
+    //    GUILayout.Label("left rot " + leftGlove.rotation);
+    //    GUILayout.Label("right rot " + rightGlove.rotation);
+    //    GUILayout.Label("shield rot " + shieldRot);
+    //    GUILayout.EndVertical();
+    //}
 }

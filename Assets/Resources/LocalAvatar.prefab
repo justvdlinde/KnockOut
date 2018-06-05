@@ -1720,15 +1720,6 @@ MonoBehaviour:
   leftGlove: {fileID: 4000013364346644}
   shieldObject: {fileID: 1121658374899834}
   maxDistanceBetweenGloves: 1
-  yRotation:
-    min: 0
-    max: 0
-  zRotation:
-    min: 0
-    max: 0
-  xRotation:
-    min: 0
-    max: 0
 --- !u!114 &114518972847675312
 MonoBehaviour:
   m_ObjectHideFlags: 1
