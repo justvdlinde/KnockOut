@@ -8,40 +8,13 @@ public class BlockManager : MonoBehaviour {
     public GameObject shieldObject;
     public float maxDistanceBetweenGloves;
     public FloatMinMax yRotation, zRotation, xRotation;
-    public BoolVariable isBlocking;
-    public float maxBlockTime, minChargeNecessaryForBlock;
-    public float chargeAddedOnBlock = 1;
-    public FloatVariable blockCharge;
 
-
-    private void Start()
-    {
-        enabled = false;
-        //NetworkController.OnStuffSpawnedReady += EnableComponent;
-    }
-
-    private void EnableComponent() {
-        enabled = true;
-        rightGlove = GameObject.Find("NetworkedRightGlove(Clone)").transform;
-        leftGlove = GameObject.Find("NetworkedLeftGlove(Clone)").transform;
-        shieldObject = GameObject.Find("Shield(Clone)");
-    }
+    private bool isBlocking;
     
-    private void OnDestroy()
-    {
-        //NetworkController.OnStuffSpawnedReady -= EnableComponent;
-
-    }
-
     private void Update() {
-        //if (IsBlocking())
-        //    ShieldUpTimer();
-        //else
-        //    ResetTimer();
-
-        isBlocking.runTimeValue = IsBlocking();
-        shieldObject.SetActive(isBlocking.runTimeValue);
-        if (isBlocking.runTimeValue)
+        isBlocking = IsBlocking();
+        shieldObject.SetActive(isBlocking);
+        if(isBlocking)
             Block();
     }
 
@@ -51,18 +24,8 @@ public class BlockManager : MonoBehaviour {
         shieldObject.transform.rotation = rot;
     }
 
-    private void ShieldUpTimer() {
-        if (blockCharge.runTimeValue > 0)
-            blockCharge.runTimeValue -= Time.deltaTime;
-    }
-
-    private void ResetTimer() {
-        if (blockCharge.runTimeValue < maxBlockTime)
-            blockCharge.runTimeValue += Time.deltaTime;
-    }
-
     private bool IsBlocking() {
-        return GloveRequirementsAreMet() && blockCharge.runTimeValue > 0; 
+        return GloveRequirementsAreMet(); 
     }
 
     private bool GloveRequirementsAreMet() {
@@ -70,10 +33,6 @@ public class BlockManager : MonoBehaviour {
                //Mathf.Abs(leftGlove.transform.rotation.x - rightGlove.transform.rotation.x) < xRotation &&
                //Mathf.Abs(leftGlove.transform.rotation.y - rightGlove.transform.rotation.y) < yRotation &&
                //Mathf.Abs(leftGlove.transform.rotation.z - rightGlove.transform.rotation.z) < zRotation;
-    }
-
-    public void ResetCharge() {
-        blockCharge.runTimeValue = maxBlockTime;
     }
 
     private void OnGUI() {
