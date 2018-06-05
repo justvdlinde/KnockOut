@@ -18,7 +18,6 @@ public class AvatarManager : MonoBehaviour {
 
 	void Start () {
         StartCoroutine("DeleteAvatar");
-
     }
 
     IEnumerator DeleteAvatar() {
@@ -26,21 +25,19 @@ public class AvatarManager : MonoBehaviour {
         playerRot = GameObject.Find("body_renderPart_2");
         playerPos = GameObject.Find("body_renderPart_1");
         playerMesh = GameObject.Find("body_renderPart_0").GetComponent<SkinnedMeshRenderer>();
-
-        rootRot = GameObject.Find("root").transform;
-        rootPos = GameObject.Find("chest_JNT").transform;
+        rootRot = GameObject.Find("root")       .transform;
+        rootPos = GameObject.Find("chest_JNT")  .transform;
         hackActivated = true;
-
     }
 
     private void Update()
     {
-        if (hackActivated) { 
-            avatarHead.transform.rotation = rootRot.transform.rotation;
+        if (hackActivated) {
+            avatar.transform.rotation = rootRot.transform.rotation;
             avatar.transform.position = rootPos.transform.position;
             playerRot.GetComponent<SkinnedMeshRenderer>().enabled = false;
             playerPos.GetComponent<SkinnedMeshRenderer>().enabled = false;
-            playerMesh.enabled = false;
+            playerMesh.enabled =                                    false;
         }
     }
 }
