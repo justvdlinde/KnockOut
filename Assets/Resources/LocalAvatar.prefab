@@ -439,6 +439,9 @@ GameObject:
   - component: {fileID: 114914282981032358}
   - component: {fileID: 65628324905073540}
   - component: {fileID: 54619935650858238}
+  - component: {fileID: 114428426632156206}
+  - component: {fileID: 114742161392147160}
+  - component: {fileID: 114164183858870174}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -864,7 +867,7 @@ Transform:
   m_GameObject: {fileID: 1121658374899834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.211, z: 0}
-  m_LocalScale: {x: 0.87, y: 0.87, z: 0.13024786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4571771585271026}
   m_Father: {fileID: 463470}
@@ -876,13 +879,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161286435007750}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.111, z: 0}
+  m_LocalScale: {x: 0.7926546, y: 0.7926546, z: 0.10761884}
   m_Children: []
   m_Father: {fileID: 4515446316188604}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4581494204247758
 Transform:
   m_ObjectHideFlags: 1
@@ -1423,7 +1426,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161286435007750}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1662,6 +1665,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charge: {fileID: 11400000, guid: e41a9bfe0b0d53c4f99f5cce37621bd0, type: 2}
   renderer: {fileID: 23707506203942248}
+--- !u!114 &114164183858870174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3087a0e2781dcaa49bb7f17dc994d96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 3e105010490b72e4db0f9fb22a848901, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114742161392147160}
+        m_MethodName: ExecuteEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114253096659400386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1708,6 +1739,18 @@ MonoBehaviour:
   isEnabled: 1
   chargeMax: 5
   m_controller: 0
+--- !u!114 &114428426632156206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: c58b2d26cc9f760458bbadf26377818a, type: 2}
 --- !u!114 &114439794655998242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1736,6 +1779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 100
   healthPoints: {fileID: 11400000, guid: 539981cba8224f045a5558e5e6daa132, type: 2}
+  onDamageTakenEvent: {fileID: 11400000, guid: 3e105010490b72e4db0f9fb22a848901, type: 2}
 --- !u!114 &114518972847675312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1801,6 +1845,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2c18ff6c32e8548a7f6a2afcc0c08d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114742161392147160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149334906201850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab5752d6468fc94dbdbecf0ed8c8116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.22781867
+      value: 1.0020702
+      inSlope: -0.009343825
+      outSlope: -0.009343825
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0029297
+      value: -0.00283432
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  effectDuration: 0.4
+  effectIntensity: 0.8
 --- !u!114 &114781071699658180
 MonoBehaviour:
   m_ObjectHideFlags: 1
