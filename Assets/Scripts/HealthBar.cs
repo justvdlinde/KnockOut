@@ -23,8 +23,4 @@ public class HealthBar : Photon.MonoBehaviour {
     private void Update() {
         renderer.material.color = Color.Lerp(emptyColor, fullColor, health.runTimeValue / 100);
     }
-
-    private void OnGUI() {
-        GUI.Label(new Rect(10, 10, 1000, 20), "lerp " + lerp + " hp: " + health.runTimeValue);
-    }
 }

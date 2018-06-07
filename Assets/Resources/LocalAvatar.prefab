@@ -1441,7 +1441,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!81 &81298367263298576
 AudioListener:
@@ -1738,7 +1738,7 @@ MonoBehaviour:
   charge: {fileID: 11400000, guid: e41a9bfe0b0d53c4f99f5cce37621bd0, type: 2}
   isEnabled: 1
   chargeMax: 5
-  m_controller: 0
+  m_controller: 1
 --- !u!114 &114428426632156206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1777,9 +1777,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009f9532cc4906442b2cadd0facd9c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   startingHealth: 100
   healthPoints: {fileID: 11400000, guid: 539981cba8224f045a5558e5e6daa132, type: 2}
   onDamageTakenEvent: {fileID: 11400000, guid: 3e105010490b72e4db0f9fb22a848901, type: 2}
+  health: 0
 --- !u!114 &114518972847675312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1820,7 +1822,7 @@ MonoBehaviour:
   charge: {fileID: 11400000, guid: 61c54bc2f0d456c47907c0a6b6869cf7, type: 2}
   isEnabled: 1
   chargeMax: 5
-  m_controller: 0
+  m_controller: 2
 --- !u!114 &114625103109788336
 MonoBehaviour:
   m_ObjectHideFlags: 1

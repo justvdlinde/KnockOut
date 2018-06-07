@@ -43,4 +43,6 @@ MonoBehaviour:
   - RequestForPickupTimes
   - TaggedPlayer
   - SpawnOnNetwork
+  - ProcessHit
+  - DamagePlayer
   DisableAutoOpenWizard: 1
