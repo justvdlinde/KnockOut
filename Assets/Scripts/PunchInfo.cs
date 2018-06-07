@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class PunchInfo  {
 
-    public Collider collider;
     public Vector3 position;
     public float velocity;
     public float charge;
 
-    public PunchInfo(Collider collider, Vector3 position, float velocity, float charge) {
-        this.collider = collider;
+    public PunchInfo(Vector3 position, float velocity, float charge) {
         this.position = position;
         this.velocity = velocity;
         this.charge = charge;

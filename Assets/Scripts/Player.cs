@@ -18,12 +18,17 @@ public class Player : Photon.MonoBehaviour {
     }
 
     public void ProcessHit(PunchInfo info, float damage) {
+        photonView.RPC("ProcessHit", PhotonTargets.All, damage);
+    }
+
+    [PunRPC]
+    private void DamagePlayer(float damage) {
         healthPoints.runTimeValue -= damage;
-        Debug.Log("damage: " + damage);
+        Debug.Log("damage recieved: " + damage);
         if (onDamageTakenEvent != null)
             onDamageTakenEvent.Raise();
 
-        if (healthPoints.runTimeValue<= 0)
+        if (healthPoints.runTimeValue <= 0)
             KnockOut();
     }
 

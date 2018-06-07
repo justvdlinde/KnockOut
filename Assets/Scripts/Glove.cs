@@ -23,7 +23,7 @@ public class Glove : MonoBehaviour {
 
     private void PunchableObjectHit(Collider collider, IPunchable punchableObject) {
         float velocity = CalculateVelocity();
-        punchableObject.Hit(new PunchInfo(collider, transform.position, velocity, charge.runTimeValue));
+        punchableObject.Hit(new PunchInfo(transform.position, velocity, charge.runTimeValue));
     }
 
     public float CalculateVelocity() {
