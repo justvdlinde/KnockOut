@@ -34,24 +34,9 @@ public class NetworkManager : MonoBehaviour {
 
             if (PhotonNetwork.player.ID == senderid){
                 go = Instantiate(Resources.Load("LocalAvatar")) as GameObject;
-                if (PhotonNetwork.countOfPlayers == 1) {
-                    go.transform.position = spawnpoints[0].position;
-                    Debug.Log("spawned at pos 1");
-                }
-                else {
-                    go.transform.position = spawnpoints[1].position;
-                    Debug.Log("spawned at pos 2");
-                }
-                
             }
             else {
                 go = Instantiate(Resources.Load("RemoteAvatar")) as GameObject;
-                    if (PhotonNetwork.countOfPlayers == 0) {
-                        go.transform.position = spawnpoints[1].position;
-                    }
-                    else {
-                    go.transform.position = spawnpoints[0].position;
-                }
             }
 
             if (go != null) {
