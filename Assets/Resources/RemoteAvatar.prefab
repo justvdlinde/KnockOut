@@ -2874,8 +2874,8 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1078880838756740}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 7d086b03471ca2949928c7f140d95673, type: 3}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 6a9d09eb21cc44541be0ef9dacbf1a4c, type: 3}
+  m_Controller: {fileID: 9100000, guid: 8f7ce60663643b442b2dc535dcd3e245, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3092,8 +3092,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 114333976880381996}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 0
-  instantiationId: -1
+  viewIdField: 1
+  instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!114 &114174523938448064
@@ -3349,9 +3349,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   startingHealth: 100
-  healthPoints: {fileID: 11400000, guid: 539981cba8224f045a5558e5e6daa132, type: 2}
+  healthPoints: {fileID: 11400000, guid: 38064f9b802a58d458881084887d078d, type: 2}
   onDamageTakenEvent: {fileID: 0}
   health: 0
+  grunts:
+  - {fileID: 8300000, guid: 9f3c6cf59bcbc194780f8707e356c66b, type: 3}
+  - {fileID: 8300000, guid: 7faae58919cbaf84084cdf7c187b7246, type: 3}
+  - {fileID: 8300000, guid: 514101eb3247b0749af1784cf60c007c, type: 3}
+  animator: {fileID: 95327666886149580}
+  hitAnims:
+  - {fileID: 7400000, guid: 6d86217aed9012240a64648c1b0d7bda, type: 2}
+  - {fileID: 7400000, guid: 640c0e9d9d712574eaf109b38c4f7d29, type: 2}
+  - {fileID: 7400000, guid: 4b14f62438b0e52449369d3a44d86ec8, type: 2}
+  - {fileID: 7400000, guid: 14467795a20d8f04f9d65f0d6ce0c0af, type: 2}
+  - {fileID: 7400000, guid: 3fddfe9c9198aea40b9c99f1fdbcb22b, type: 2}
 --- !u!114 &114687082847080120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4552,7 +4563,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300004, guid: 7d086b03471ca2949928c7f140d95673, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 6a9d09eb21cc44541be0ef9dacbf1a4c, type: 3}
   m_Bones:
   - {fileID: 4570490541339308}
   - {fileID: 4855323647927604}

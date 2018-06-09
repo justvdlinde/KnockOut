@@ -11,6 +11,8 @@ public class Player : Photon.MonoBehaviour {
     public float health;
 
     public AudioClip[] grunts;
+    public Animator animator;
+    public AnimationClip[] hitAnims;
 
     private AudioSource audioSource;
 
@@ -25,8 +27,7 @@ public class Player : Photon.MonoBehaviour {
             limb.onHit += ProcessHit;
     }
 
-    private void Update()
-    {
+    private void Update() {
         health = healthPoints.runTimeValue;
     }
 
@@ -36,8 +37,10 @@ public class Player : Photon.MonoBehaviour {
 
     [PunRPC]
     private void DamagePlayer(float damage, int senderIndex) {
-        if(!photonView.isMine)
+        if (!photonView.isMine) {
             audioSource.PlayOneShot(grunts.GetRandom());
+            PlayRandomHitAnimation();
+        }
 
         if (index == senderIndex)
             return;
@@ -53,6 +56,11 @@ public class Player : Photon.MonoBehaviour {
 
     private void KnockOut() {
         Debug.Log("KNOCK-OUT");
+    }
+
+    private void PlayRandomHitAnimation() {
+        string rndClip = hitAnims.GetRandom().name;
+        animator.CrossFade(rndClip, .1f, 0);
     }
 
     private void OnGUI() {
