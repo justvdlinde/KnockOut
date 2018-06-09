@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 [SelectionBase]
 public class Glove : MonoBehaviour {
 
     public FloatVariable charge;
     public bool isEnabled;
     public float chargeMax = 5;
+    public AudioClip[] punchSounds;
 
     [SerializeField]
     private OVRInput.Controller m_controller;
+    private AudioSource audioSource;
     private OVRHapticsClip clip;
 
     private void OnEnable() {
@@ -30,6 +33,7 @@ public class Glove : MonoBehaviour {
         float velocity = CalculateVelocity();
         punchableObject.Hit(new PunchInfo(transform.position, velocity, charge.runTimeValue));
         Vibrate();
+        audioSource.PlayOneShot(punchSounds.GetRandom());
     }
 
     public float CalculateVelocity() {

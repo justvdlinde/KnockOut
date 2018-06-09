@@ -10,10 +10,15 @@ public class Player : Photon.MonoBehaviour {
     public GameEvent onDamageTakenEvent;
     public float health;
 
+    public AudioClip[] grunts;
+
+    private AudioSource audioSource;
+
     private void Start() {
         index = PhotonNetwork.playerList.Length - 1;
+        audioSource = GetComponent<AudioSource>();
 
-        if(photonView.isMine)
+        if (photonView.isMine)
             healthPoints.runTimeValue = startingHealth;
 
         foreach(HittableLimb limb in GetComponentsInChildren<HittableLimb>()) 
@@ -31,6 +36,9 @@ public class Player : Photon.MonoBehaviour {
 
     [PunRPC]
     private void DamagePlayer(float damage, int senderIndex) {
+        if(!photonView.isMine)
+            audioSource.PlayOneShot(grunts.GetRandom());
+
         if (index == senderIndex)
             return;
 

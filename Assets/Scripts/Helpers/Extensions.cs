@@ -18,4 +18,8 @@ public static class Extensions2 {
 
         return obj.GetComponents<T>() as T[];
     }
+
+    public static T GetRandom<T>(this T[] arr) {
+        return arr[Random.Range(0, arr.Length - 1)];
+    }
 }
