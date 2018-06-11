@@ -10,6 +10,7 @@ public class Glove : MonoBehaviour {
     public bool isEnabled;
     public float chargeMax = 5;
     public AudioClip[] punchSounds;
+    public GameObject punchParticle;
 
     [SerializeField]
     private OVRInput.Controller m_controller;
@@ -35,6 +36,7 @@ public class Glove : MonoBehaviour {
         punchableObject.Hit(new PunchInfo(transform.position, velocity, charge.runTimeValue));
         Vibrate();
         audioSource.PlayOneShot(punchSounds.GetRandom());
+        Instantiate(punchParticle, collider.ClosestPointOnBounds(transform.position), Quaternion.identity);
     }
 
     public float CalculateVelocity() {
