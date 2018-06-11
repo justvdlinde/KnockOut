@@ -13,7 +13,7 @@ public class Glove : MonoBehaviour {
 
     [SerializeField]
     private OVRInput.Controller m_controller;
-    private AudioSource audioSource;
+    public  AudioSource audioSource;
     private OVRHapticsClip clip;
 
     private void OnEnable() {
@@ -30,6 +30,7 @@ public class Glove : MonoBehaviour {
     }
 
     private void PunchableObjectHit(Collider collider, IPunchable punchableObject) {
+        Debug.Log("hitting " + collider.gameObject.name);
         float velocity = CalculateVelocity();
         punchableObject.Hit(new PunchInfo(transform.position, velocity, charge.runTimeValue));
         Vibrate();

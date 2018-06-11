@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,10 +7,18 @@ using UnityEngine.Events;
 public class Shield : MonoBehaviour {
 
     public AudioClip hit, down, up;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
+    public bool isLocal;
+
+    public static Action<Shield> onShieldCreated;
 
     private void Start() {
         audioSource = GetComponent<AudioSource>();
+        if (onShieldCreated != null) {
+            onShieldCreated.Invoke(this);
+        }
+
+        gameObject.SetActive(false);
     }
 
     public void OnTriggerEnter(Collider collider) {

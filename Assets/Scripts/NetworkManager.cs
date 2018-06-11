@@ -34,9 +34,11 @@ public class NetworkManager : MonoBehaviour {
 
             if (PhotonNetwork.player.ID == senderid){
                 go = Instantiate(Resources.Load("LocalAvatar")) as GameObject;
+                Instantiate(Resources.Load("ShieldBlue"));
             }
             else {
                 go = Instantiate(Resources.Load("RemoteAvatar")) as GameObject;
+                Instantiate(Resources.Load("ShieldRed"));
             }
 
             if (go != null) {

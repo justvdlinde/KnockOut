@@ -8,14 +8,64 @@ public class BlockManager : MonoBehaviour {
     public GameObject shieldObject;
     public float maxDistanceBetweenGloves;
 
-    private bool isBlocking;
+    public bool isBlocking;
     private Quaternion shieldRot;
+    private PhotonView photonView;
+    private Player player;
+
+    public bool isBlockingSyncTest;
+
+    private void Start()
+    {
+        photonView = GetComponent<PhotonView>();
+        Shield.onShieldCreated += SetShield;
+        player = GetComponent<Player>();
+    }
+
+    private void OnDestroy()
+    {
+        Shield.onShieldCreated -= SetShield;
+
+    }
 
     private void Update() {
-        isBlocking = IsBlocking();
+        if (shieldObject == null) 
+            return;
+        if(photonView.isMine)
+            isBlocking = IsBlocking();
+
         shieldObject.SetActive(isBlocking);
         if (isBlocking)
             Block();
+
+        //if (photonView.isMine)
+            ProcessBlock(isBlocking);
+
+        isBlockingSyncTest = isBlocking;
+    }
+
+    [PunRPC]
+    private void SyncShield(bool b, int senderIndex) {
+        //if (player.index == senderIndex)
+        //    return;
+        isBlocking = b;
+    }
+
+    public void ProcessBlock(bool b) {
+        photonView.RPC("SyncShield", PhotonTargets.All, b, player.index);
+    }
+
+    private void SetShield(Shield shield) {
+        if (photonView.isMine)
+        {
+            if (shield.isLocal)
+                shieldObject = shield.gameObject;
+        }
+        else
+        {
+            if(!shield.isLocal)
+                shieldObject = shield.gameObject;
+        }
     }
 
     private void Block() {
@@ -34,16 +84,13 @@ public class BlockManager : MonoBehaviour {
         return Vector3.Distance(rightGlove.position, leftGlove.position) < maxDistanceBetweenGloves;
     }
 
-    //private void OnGUI() {
-    //    GUILayout.BeginVertical();
-    //    //GUILayout.Label("isblocking: " + IsBlocking());
-    //    //GUILayout.Label("charge: " + blockCharge.runTimeValue);
-    //    //GUILayout.Label("Rot: " + shieldObject.transform.rotation);
-    //    //GUILayout.Label("DISTANCE MET: " + DistanceRequirementMet());
-    //    //GUILayout.Label("Distance " + Vector3.Distance(rightGlove.position, leftGlove.position));
-    //    GUILayout.Label("left rot " + leftGlove.rotation);
-    //    GUILayout.Label("right rot " + rightGlove.rotation);
-    //    GUILayout.Label("shield rot " + shieldRot);
-    //    GUILayout.EndVertical();
-    //}
+    private void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
+        if (stream.isWriting) {
+            stream.SendNext(isBlockingSyncTest);
+        }
+
+        if (stream.isReading) {
+            isBlockingSyncTest = (bool)stream.ReceiveNext();
+        }
+    }
 }

@@ -17,6 +17,7 @@ public class leftHand : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         handLeft = GameObject.Find("hand_left_renderPart_0").GetComponent<SkinnedMeshRenderer>();
+  
         hackActivated = true;
     }
 

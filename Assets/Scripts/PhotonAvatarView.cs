@@ -70,15 +70,13 @@ public class PhotonAvatarView : MonoBehaviour {
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
         if (stream.isWriting){
-            if (packetData.Count == 0)
-            {
+            if (packetData.Count == 0) {
                 return;
             }
 
             stream.SendNext(packetData.Count);
 
-            foreach (byte[] b in packetData)
-            {
+            foreach (byte[] b in packetData) {
                 stream.SendNext(b);
             }
 

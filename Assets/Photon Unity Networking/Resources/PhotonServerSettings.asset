@@ -45,4 +45,7 @@ MonoBehaviour:
   - SpawnOnNetwork
   - ProcessHit
   - DamagePlayer
+  - CheckShield
+  - CheckTrigger
+  - SyncShield
   DisableAutoOpenWizard: 1

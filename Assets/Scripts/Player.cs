@@ -9,21 +9,21 @@ public class Player : Photon.MonoBehaviour {
     public FloatVariable healthPoints;
     public GameEvent onDamageTakenEvent;
     public float health;
+    public BlockManager blockManager;
 
     public AudioClip[] grunts;
     public Animator animator;
     public AnimationClip[] hitAnims;
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     private void Start() {
-        index = PhotonNetwork.playerList.Length - 1;
-        audioSource = GetComponent<AudioSource>();
+        index = photonView.viewID;
 
         if (photonView.isMine)
             healthPoints.runTimeValue = startingHealth;
 
-        foreach(HittableLimb limb in GetComponentsInChildren<HittableLimb>()) 
+        foreach (HittableLimb limb in GetComponentsInChildren<HittableLimb>())
             limb.onHit += ProcessHit;
     }
 
@@ -33,6 +33,7 @@ public class Player : Photon.MonoBehaviour {
 
     public void ProcessHit(PunchInfo info, float damage) {
         photonView.RPC("DamagePlayer", PhotonTargets.All, damage, index);
+        healthPoints.runTimeValue -= damage;
     }
 
     [PunRPC]
@@ -42,8 +43,8 @@ public class Player : Photon.MonoBehaviour {
             PlayRandomHitAnimation();
         }
 
-        if (index == senderIndex)
-            return;
+        //if (index == senderIndex)
+        //    return;
 
         healthPoints.runTimeValue -= damage;
         Debug.Log("damage recieved: " + damage);
@@ -66,6 +67,7 @@ public class Player : Photon.MonoBehaviour {
     private void OnGUI() {
         if (photonView.isMine) { 
             GUI.Label(new Rect(10, 10, 1000, 20), "HP: " + healthPoints.runTimeValue);
+            GUI.Label(new Rect(10, 30, 1000, 20), "index: " + index);
         }
     }
 
