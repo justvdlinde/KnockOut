@@ -119,7 +119,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 143252}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.5159171, y: 0.030819893, z: 2.02}
+  m_LocalPosition: {x: -0.5159171, y: 0.030819893, z: 0.316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4507518437096470}
@@ -1967,7 +1967,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1135261746380914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0522, y: 0.26787, z: 0.0939}
+  m_LocalPosition: {x: -0.0522, y: 0.26787, z: 0.153}
   m_LocalScale: {x: 0.8290823, y: 0.8290821, z: 0.8290821}
   m_Children: []
   m_Father: {fileID: 4407888359780618}
@@ -2073,7 +2073,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1222736329377944}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.124, z: -0.021007232}
+  m_LocalPosition: {x: -0, y: 0.124, z: -0.086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4048452359189786}
@@ -2105,7 +2105,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1078880838756740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4407888359780618}
@@ -2243,7 +2243,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1028854667305008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0513, y: 0.26787, z: 0.0939}
+  m_LocalPosition: {x: 0.0513, y: 0.26787, z: 0.153}
   m_LocalScale: {x: 0.8290823, y: 0.8290821, z: 0.8290821}
   m_Children: []
   m_Father: {fileID: 4407888359780618}
@@ -2753,7 +2753,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1728933789610382}
   serializedVersion: 2
-  m_Mass: 50
+  m_Mass: 1
   m_Drag: 5
   m_AngularDrag: 10
   m_UseGravity: 1
@@ -2786,7 +2786,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10250728, y: 0.048041604, z: 7.352824e-15}
+  m_ConnectedAnchor: {x: 0.10250728, y: 0.048041545, z: -1.5289629e-15}
   m_UseSpring: 1
   m_Spring:
     spring: 6
@@ -2889,7 +2889,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2913,7 +2913,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!95 &95000011808594792
 Animator:
   serializedVersion: 3
@@ -3175,8 +3175,8 @@ MonoBehaviour:
   - {fileID: 114333976880381996}
   - {fileID: 114937842141216268}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 0
-  instantiationId: -1
+  viewIdField: 1
+  instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!114 &114174523938448064

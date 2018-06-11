@@ -16,6 +16,7 @@ public class Player : Photon.MonoBehaviour {
     public AnimationClip[] hitAnims;
 
     public AudioSource audioSource;
+    private SoundManager sm;
 
     private void Start() {
         index = photonView.viewID;
@@ -57,6 +58,7 @@ public class Player : Photon.MonoBehaviour {
 
     private void KnockOut() {
         Debug.Log("KNOCK-OUT");
+        sm.KnockoutSound();
     }
 
     private void PlayRandomHitAnimation() {

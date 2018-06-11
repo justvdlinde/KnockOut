@@ -25,6 +25,10 @@ public class PhotonAvatarView : MonoBehaviour {
         }
     }
 
+    private void Update() {
+        Debug.Log(ovrAvatar.transform.position);
+    }
+
 
     private void OnDisable() {
         if (photonView.isMine) {
