@@ -18,8 +18,10 @@ public class Player : Photon.MonoBehaviour {
 
     public AudioSource audioSource;
     private SoundManager sm;
+    bool isKnockedOut = false;
 
     private void Start() {
+        sm = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         index = photonView.viewID;
 
         if (photonView.isMine)
@@ -34,17 +36,14 @@ public class Player : Photon.MonoBehaviour {
     }
 
     public void ProcessHit(PunchInfo info, float damage) {
-        photonView.RPC("DamagePlayer", PhotonTargets.All, damage, index);
+        photonView.RPC("DamagePlayer", PhotonTargets.Others, damage, index);
         healthPoints.runTimeValue -= damage;
+        audioSource.PlayOneShot(grunts.GetRandom());
+        PlayRandomHitAnimation();
     }
 
     [PunRPC]
     private void DamagePlayer(float damage, int senderIndex) {
-        if (!photonView.isMine) {
-            audioSource.PlayOneShot(grunts.GetRandom());
-            PlayRandomHitAnimation();
-        }
-
         //if (index == senderIndex)
         //    return;
 
@@ -58,9 +57,12 @@ public class Player : Photon.MonoBehaviour {
     }
 
     private void KnockOut() {
+        if (isKnockedOut == true)
+            return;
         Debug.Log("KNOCK-OUT");
         sm.KnockoutSound();
         onKnockedOutEvent.Raise();
+        isKnockedOut = true;
         enabled = false;
     }
 
@@ -78,11 +80,11 @@ public class Player : Photon.MonoBehaviour {
 
     //void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
     //    if (stream.isWriting) {
-    //        stream.SendNext(healthPoints.runTimeValue);
+    //        stream.SendNext(health);
     //    }
 
     //    if (stream.isReading) {
-    //        healthPoints.runTimeValue = (float)stream.ReceiveNext();
+    //        health = (float)stream.ReceiveNext();
     //    }
     //}
 }

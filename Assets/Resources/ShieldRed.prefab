@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114626633704723140}
   - component: {fileID: 114726541106532572}
   - component: {fileID: 82336686178120368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShieldRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 64144644804807458}
   - component: {fileID: 114030083771741568}
   - component: {fileID: 114515255786553714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shield_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}

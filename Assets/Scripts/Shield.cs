@@ -34,10 +34,10 @@ public class Shield : MonoBehaviour {
     }
 
     private void OnEnable() {
-            audioSource.PlayOneShot(up);
+        AudioSource.PlayClipAtPoint(up, transform.position);
     }
 
     private void OnDisable() {
-            audioSource.PlayOneShot(down);
+        AudioSource.PlayClipAtPoint(down, transform.position);
     }
 }

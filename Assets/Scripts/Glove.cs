@@ -11,6 +11,7 @@ public class Glove : MonoBehaviour {
     public float chargeMax = 5;
     public AudioClip[] punchSounds;
     public GameObject punchParticle;
+    public Transform particleSpawnPoint;
 
     [SerializeField]
     private OVRInput.Controller m_controller;
@@ -36,7 +37,7 @@ public class Glove : MonoBehaviour {
         punchableObject.Hit(new PunchInfo(transform.position, velocity, charge.runTimeValue));
         Vibrate();
         audioSource.PlayOneShot(punchSounds.GetRandom());
-        Instantiate(punchParticle, collider.ClosestPointOnBounds(transform.position), Quaternion.identity);
+        Instantiate(punchParticle, particleSpawnPoint.position, Quaternion.identity);
     }
 
     public float CalculateVelocity() {
