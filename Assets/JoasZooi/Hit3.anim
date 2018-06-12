@@ -26,21 +26,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.16666667
-        value: 99.980644
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        time: 0.11666667
+        value: 100
+        inSlope: 683.5884
+        outSlope: 683.5884
+        tangentMode: 0
       - serializedVersion: 2
-        time: 0.53333336
-        value: -0.058434606
+        time: 0.3
+        value: 80.71048
+        inSlope: -698.1699
+        outSlope: -698.1699
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.LeftHit
+    attribute: blendShape.blendShape1.Torso4
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -54,21 +60,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.18333334
-        value: 50
+        time: 0.11666667
+        value: 88.59294
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.8
-        value: 0.117889404
+        time: 0.35
+        value: 22.10118
+        inSlope: 57.58511
+        outSlope: 57.58511
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.MidHit
+    attribute: blendShape.blendShape1.Torso5
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -82,14 +94,14 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 1491332054
-      attribute: 2090628999
+      attribute: 4293693866
       script: {fileID: 0}
       typeID: 137
       customType: 20
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1491332054
-      attribute: 700437373
+      attribute: 2297143612
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -100,7 +112,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -126,21 +138,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.16666667
-        value: 99.980644
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        time: 0.11666667
+        value: 100
+        inSlope: 683.5884
+        outSlope: 683.5884
+        tangentMode: 0
       - serializedVersion: 2
-        time: 0.53333336
-        value: -0.058434606
+        time: 0.3
+        value: 80.71048
+        inSlope: -698.1699
+        outSlope: -698.1699
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.LeftHit
+    attribute: blendShape.blendShape1.Torso4
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -154,21 +172,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.18333334
-        value: 50
+        time: 0.11666667
+        value: 88.59294
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.8
-        value: 0.117889404
+        time: 0.35
+        value: 22.10118
+        inSlope: 57.58511
+        outSlope: 57.58511
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.MidHit
+    attribute: blendShape.blendShape1.Torso5
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}

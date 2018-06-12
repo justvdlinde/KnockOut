@@ -26,27 +26,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.28333333
-        value: 94.60884
-        inSlope: 33.90091
-        outSlope: 33.90091
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 0.3
-        value: 97.15141
+        time: 0.1
+        value: 60
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.4
-        value: 1.9300232
+        time: 0.25
+        value: 19.691498
+        inSlope: -66.66667
+        outSlope: -66.66667
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.RightHit
+    attribute: blendShape.blendShape1.Torso2
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -55,26 +55,66 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.64334106
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.21666667
-        value: 30.237297
+        time: 0.11666667
+        value: 111.53307
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.53333336
-        value: -0.64334106
+        time: 0.31666666
+        value: 2.6914988
+        inSlope: -12.187906
+        outSlope: -12.187906
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.Hit2
+    attribute: blendShape.blendShape1.Torso5
+    path: Fighter/Torso2
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.13333334
+        value: 80
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 23.691498
+        inSlope: -92.3077
+        outSlope: -92.3077
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.blendShape1.Torso4
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -88,14 +128,21 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 1491332054
-      attribute: 1242118085
+      attribute: 378483871
       script: {fileID: 0}
       typeID: 137
       customType: 20
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1491332054
-      attribute: 3035750301
+      attribute: 2297143612
+      script: {fileID: 0}
+      typeID: 137
+      customType: 20
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1491332054
+      attribute: 4293693866
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -106,7 +153,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.53333336
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -132,27 +179,27 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.28333333
-        value: 94.60884
-        inSlope: 33.90091
-        outSlope: 33.90091
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 0.3
-        value: 97.15141
+        time: 0.1
+        value: 60
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.4
-        value: 1.9300232
+        time: 0.25
+        value: 19.691498
+        inSlope: -66.66667
+        outSlope: -66.66667
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.RightHit
+    attribute: blendShape.blendShape1.Torso2
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
@@ -161,26 +208,66 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.64334106
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.21666667
-        value: 30.237297
+        time: 0.11666667
+        value: 111.53307
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.53333336
-        value: -0.64334106
+        time: 0.31666666
+        value: 2.6914988
+        inSlope: -12.187906
+        outSlope: -12.187906
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.blendShape1.Hit2
+    attribute: blendShape.blendShape1.Torso5
+    path: Fighter/Torso2
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.13333334
+        value: 80
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 23.691498
+        inSlope: -92.3077
+        outSlope: -92.3077
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.blendShape1.Torso4
     path: Fighter/Torso2
     classID: 137
     script: {fileID: 0}
