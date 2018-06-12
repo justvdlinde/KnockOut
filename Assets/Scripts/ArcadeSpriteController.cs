@@ -23,7 +23,6 @@ public class ArcadeSpriteController : MonoBehaviour {
     private IEnumerator Wait() {
         float rndTime = switchTime.GetRandom();
         GameObject rndSprite = rends.GetRandom();
-        Debug.Log("new sprite: " + rndSprite);
         currentRend.SetActive(false);
         currentRend = rndSprite;
         currentRend.SetActive(true);

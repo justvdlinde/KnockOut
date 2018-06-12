@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4318220120799184}
   - component: {fileID: 33913100279364300}
   - component: {fileID: 23185700153947502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4521619633046134}
   - component: {fileID: 33870489249328008}
   - component: {fileID: 23117124044720802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4722416618122754}
   - component: {fileID: 212765952021695154}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4337250181503072}
   - component: {fileID: 33533005526695748}
   - component: {fileID: 23566088110501540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4730530697304016}
   - component: {fileID: 212589177489666596}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4335553005778794}
   - component: {fileID: 212664100931186642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450191213049586}
   - component: {fileID: 212613401110882930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4687355446044774}
   - component: {fileID: 95993512336513902}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltjes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 33487428333549610}
   - component: {fileID: 23326668751509082}
   - component: {fileID: 95882714551031626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4786308786971836}
   - component: {fileID: 212380003721115746}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 4743338858847646}
   - component: {fileID: 33973738973053830}
   - component: {fileID: 23463085442393056}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4833347055824766}
   - component: {fileID: 212655462044639308}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4121958649692256}
   - component: {fileID: 95678967396881648}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 4389255974032102}
   - component: {fileID: 33575152155561908}
   - component: {fileID: 23031083549955362}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4744726423985348}
   - component: {fileID: 212393312414582086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4853996229495796}
   - component: {fileID: 108346836525320768}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4089763703436296}
   - component: {fileID: 212057100764325898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 4784272612926438}
   - component: {fileID: 33303519750588718}
   - component: {fileID: 23260548897703354}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4909702780144634}
   - component: {fileID: 108792324962687972}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4347282412572276}
   - component: {fileID: 95446141012644388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 4341292396015806}
   - component: {fileID: 33769280397193064}
   - component: {fileID: 23842597148302846}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4802325032084824}
   - component: {fileID: 108831917487548378}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4385858803164862}
   - component: {fileID: 212247969903618210}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4407963287566754}
   - component: {fileID: 212423008378702984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 4436881284825816}
   - component: {fileID: 33503647152810934}
   - component: {fileID: 23122850051156548}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4281471118089792}
   - component: {fileID: 212585101407814526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 4296437901142118}
   - component: {fileID: 33250725740707302}
   - component: {fileID: 23264850115858014}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 4712070359646898}
   - component: {fileID: 33805275232162538}
   - component: {fileID: 23009887994618456}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 33351243151694706}
   - component: {fileID: 23077642767383424}
   - component: {fileID: 95860183143071826}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 33853029348118670}
   - component: {fileID: 23376056079414616}
   - component: {fileID: 95353094853973380}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 4370095718984130}
   - component: {fileID: 33114722625465364}
   - component: {fileID: 23242391588894338}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4046412246813212}
   - component: {fileID: 212284849003928904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4748425294779778}
   - component: {fileID: 95664146681125622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 4990330054706900}
   - component: {fileID: 33400532355612584}
   - component: {fileID: 23743244979028498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4132382757986642}
   - component: {fileID: 108572334878554250}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4536015601621070}
   - component: {fileID: 212157328299665212}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4927193262278406}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cushions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4754040907654436}
   - component: {fileID: 212986772628026960}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4161655227152196}
   - component: {fileID: 212842786180052240}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 4840222663293830}
   - component: {fileID: 33461362066367718}
   - component: {fileID: 23645500125720076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 33125041409550208}
   - component: {fileID: 23927141610396564}
   - component: {fileID: 95333499105989836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -696,7 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4822284788561880}
   - component: {fileID: 212312298659810772}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ GameObject:
   - component: {fileID: 4966866311813144}
   - component: {fileID: 33979577483942032}
   - component: {fileID: 23694085674545066}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266016683932898}
   - component: {fileID: 108533894164074812}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 4670600884554420}
   - component: {fileID: 33036285854904900}
   - component: {fileID: 23463657466541130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 4062152107750196}
   - component: {fileID: 33528482197304132}
   - component: {fileID: 23210045412206296}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   - component: {fileID: 4390435365097552}
   - component: {fileID: 33210781288244708}
   - component: {fileID: 23192173310864414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 4648308586570772}
   - component: {fileID: 33850861301962404}
   - component: {fileID: 23741077016550766}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -813,7 +813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4820060871804426}
   - component: {fileID: 212558419971793870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 4071811058495680}
   - component: {fileID: 33606997143145128}
   - component: {fileID: 23262531018178010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4098508569653154}
   - component: {fileID: 212391812419694262}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4675457987424976}
   - component: {fileID: 212472364977268992}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -879,7 +879,7 @@ GameObject:
   - component: {fileID: 4760723680956616}
   - component: {fileID: 33323929694770952}
   - component: {fileID: 23498079008703000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4005156334022078}
   - component: {fileID: 212066135649606948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4631905712183522}
   - component: {fileID: 212233149500018916}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +928,7 @@ GameObject:
   - component: {fileID: 4838778043067816}
   - component: {fileID: 33147683943047766}
   - component: {fileID: 23475172366734738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 4629927771127354}
   - component: {fileID: 33162970356586808}
   - component: {fileID: 23863594811646140}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 33740820899296518}
   - component: {fileID: 23155439016394428}
   - component: {fileID: 95918189726733542}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4653196498919164}
   - component: {fileID: 108385103794091470}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 4994674512959066}
   - component: {fileID: 33889920529595786}
   - component: {fileID: 23870196457837796}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,7 +1012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4333220502468746}
   - component: {fileID: 212631281191858408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4360774724433988}
   - component: {fileID: 212138806588618468}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4542259712022512}
   - component: {fileID: 212548249199377358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4858338529085682}
   - component: {fileID: 95607242960971984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1076,7 +1076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4921712155546034}
   - component: {fileID: 212324806504541326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 4581405076845750}
   - component: {fileID: 33193702042870284}
   - component: {fileID: 23762052373720888}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607879358236378}
   - component: {fileID: 212115036467251802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 4816955060971474}
   - component: {fileID: 33660624071461884}
   - component: {fileID: 23956473743308344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4371762760731140}
   - component: {fileID: 95571582218450618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,7 +1158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4247805763635842}
   - component: {fileID: 95563493221087292}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1174,7 +1174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4908805018731750}
   - component: {fileID: 212063334103921568}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 4725930950260126}
   - component: {fileID: 33901908354549766}
   - component: {fileID: 23976238205958896}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1208,7 +1208,7 @@ GameObject:
   - component: {fileID: 4876242940651096}
   - component: {fileID: 33250648994707208}
   - component: {fileID: 23870229117013176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 4419381914139536}
   - component: {fileID: 33922692568292002}
   - component: {fileID: 23236096552444964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 33085851502494822}
   - component: {fileID: 23730878101497354}
   - component: {fileID: 95189166270374290}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4758150320801144}
   - component: {fileID: 212263409675780454}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4075068824986026}
   - component: {fileID: 212953236004841214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 4388712232049204}
   - component: {fileID: 33567797277458214}
   - component: {fileID: 23797502522966202}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4800151476638002}
   - component: {fileID: 212713632304613596}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1324,7 +1324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4750248684265352}
   - component: {fileID: 212078372592846032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4592416301682780}
   - component: {fileID: 212008200768979562}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1356,7 +1356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4683924713003156}
   - component: {fileID: 212430188258538812}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,7 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458314365436028}
   - component: {fileID: 212714131409824704}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1388,7 +1388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4723765930206712}
   - component: {fileID: 212275703307587702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,7 +1406,7 @@ GameObject:
   - component: {fileID: 33457763112542570}
   - component: {fileID: 23139299635760748}
   - component: {fileID: 95105536582487812}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 4404138106580128}
   - component: {fileID: 33865489023211102}
   - component: {fileID: 23027525202264154}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862453475867804}
   - component: {fileID: 212788850701332422}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1455,7 +1455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4933895279751014}
   - component: {fileID: 212574168104831248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 4505840171429718}
   - component: {fileID: 33883980171812756}
   - component: {fileID: 23312732476987676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 4002764382900774}
   - component: {fileID: 33727817250945900}
   - component: {fileID: 23833285799277360}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1505,7 +1505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4004106889175698}
   - component: {fileID: 212340736245393216}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4244973800488838}
   - component: {fileID: 212299364523035172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1537,7 +1537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4669465804827566}
   - component: {fileID: 212188333640863834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4660044306019892}
   - component: {fileID: 108478232232140630}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1571,7 +1571,7 @@ GameObject:
   - component: {fileID: 33690226751287702}
   - component: {fileID: 23667432496366264}
   - component: {fileID: 95928474211237784}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,7 +1587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4703433035531442}
   - component: {fileID: 212284749578050566}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1603,7 +1603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4911033401499346}
   - component: {fileID: 212143146001528728}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,7 +1620,7 @@ GameObject:
   - component: {fileID: 4792206021001736}
   - component: {fileID: 33554397014926802}
   - component: {fileID: 23303354958013198}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1637,7 +1637,7 @@ GameObject:
   - component: {fileID: 4735561949158718}
   - component: {fileID: 33849149254110984}
   - component: {fileID: 23157164575139926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1654,7 +1654,7 @@ GameObject:
   - component: {fileID: 4630517253310206}
   - component: {fileID: 33197298178196148}
   - component: {fileID: 23757666851899940}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1670,7 +1670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4103264126036856}
   - component: {fileID: 108186989046235906}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4183006861191364}
   - component: {fileID: 212662333823133840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1703,7 +1703,7 @@ GameObject:
   - component: {fileID: 4053402190659724}
   - component: {fileID: 33837094197860652}
   - component: {fileID: 23894672887327384}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4589778430021120}
   - component: {fileID: 212708614674703570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 4944315711786148}
   - component: {fileID: 33434281814435184}
   - component: {fileID: 23122539404805194}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,7 +1752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4700088971038560}
   - component: {fileID: 212793173443398986}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1768,7 +1768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4990636679386674}
   - component: {fileID: 212616025116971576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 4956649147751568}
   - component: {fileID: 33325772748979748}
   - component: {fileID: 23001610574633076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 4214469825823818}
   - component: {fileID: 33158916085519784}
   - component: {fileID: 23550211517469592}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1820,7 +1820,7 @@ GameObject:
   - component: {fileID: 33298907614505462}
   - component: {fileID: 23237012876342700}
   - component: {fileID: 95504157728748454}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,7 +1837,7 @@ GameObject:
   - component: {fileID: 4930316274606912}
   - component: {fileID: 33569770004826270}
   - component: {fileID: 23817835380829224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1854,7 +1854,7 @@ GameObject:
   - component: {fileID: 4560219976091158}
   - component: {fileID: 33517885321008300}
   - component: {fileID: 23194452261957710}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1871,24 +1871,8 @@ GameObject:
   - component: {fileID: 4365963366873622}
   - component: {fileID: 33101383125201744}
   - component: {fileID: 23787723742972192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1486293025614810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4249372132895222}
-  - component: {fileID: 108177128734246060}
-  m_Layer: 8
-  m_Name: spotLight4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1904,7 +1888,7 @@ GameObject:
   - component: {fileID: 4066051968963056}
   - component: {fileID: 33696706920023870}
   - component: {fileID: 23880223548226052}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1920,7 +1904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4725398334236418}
   - component: {fileID: 212960288652278142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1937,7 +1921,7 @@ GameObject:
   - component: {fileID: 4515331875618666}
   - component: {fileID: 33311647024115074}
   - component: {fileID: 23520014321620730}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1953,7 +1937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4643891637107436}
   - component: {fileID: 95402727762850936}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1969,7 +1953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4648355726983322}
   - component: {fileID: 212406842944894626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +1970,7 @@ GameObject:
   - component: {fileID: 4885170938173302}
   - component: {fileID: 33211627085370496}
   - component: {fileID: 23204938681508492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2003,24 +1987,8 @@ GameObject:
   - component: {fileID: 4937500792011936}
   - component: {fileID: 33828952133132746}
   - component: {fileID: 23379001258991800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1516091332225042
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4837096385979836}
-  - component: {fileID: 108477230973102362}
-  m_Layer: 8
-  m_Name: spotLight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2036,7 +2004,7 @@ GameObject:
   - component: {fileID: 4277708133591098}
   - component: {fileID: 33013598680629098}
   - component: {fileID: 23484491467519668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2052,7 +2020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466695337982428}
   - component: {fileID: 212586000026002394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2069,7 +2037,7 @@ GameObject:
   - component: {fileID: 4151531179843396}
   - component: {fileID: 33904677688013802}
   - component: {fileID: 23399196111589888}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2086,7 +2054,7 @@ GameObject:
   - component: {fileID: 4624408938881296}
   - component: {fileID: 33060622991075760}
   - component: {fileID: 23689318220957366}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2103,7 +2071,7 @@ GameObject:
   - component: {fileID: 4373755561702498}
   - component: {fileID: 33059777859341954}
   - component: {fileID: 23946193670136286}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2088,7 @@ GameObject:
   - component: {fileID: 4409950967429168}
   - component: {fileID: 33302486812445480}
   - component: {fileID: 23725728220176588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4304489288582938}
   - component: {fileID: 212816166742474636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2154,7 +2122,7 @@ GameObject:
   - component: {fileID: 33046964793882242}
   - component: {fileID: 23310020820075626}
   - component: {fileID: 95830310313869016}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2170,7 +2138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4180405462133552}
   - component: {fileID: 212430036018171298}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2155,7 @@ GameObject:
   - component: {fileID: 4759968646626788}
   - component: {fileID: 33657614859404376}
   - component: {fileID: 23736965315743608}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4738367729136648}
   - component: {fileID: 108178136904364408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2219,7 +2187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4121410329247130}
   - component: {fileID: 212565672072832794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2236,8 +2204,24 @@ GameObject:
   - component: {fileID: 4675200974516466}
   - component: {fileID: 33305899428137484}
   - component: {fileID: 23250122933151918}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1583751968708848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4351656163351682}
+  - component: {fileID: 212282532495798526}
+  m_Layer: 9
+  m_Name: logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2253,7 +2237,7 @@ GameObject:
   - component: {fileID: 4615634912107570}
   - component: {fileID: 33273826102082388}
   - component: {fileID: 23491127334414912}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2270,7 +2254,7 @@ GameObject:
   - component: {fileID: 4160275744321054}
   - component: {fileID: 33600242189339854}
   - component: {fileID: 23898319513147446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2286,7 +2270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4452860141066908}
   - component: {fileID: 212241449137057552}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2303,7 +2287,7 @@ GameObject:
   - component: {fileID: 4812940482261858}
   - component: {fileID: 33653142990153130}
   - component: {fileID: 23058784333038604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2320,7 +2304,7 @@ GameObject:
   - component: {fileID: 4843528836285630}
   - component: {fileID: 33633921773079918}
   - component: {fileID: 23329040504658856}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2336,7 +2320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4250118345483658}
   - component: {fileID: 212514892738438048}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2353,7 +2337,7 @@ GameObject:
   - component: {fileID: 4952882315159414}
   - component: {fileID: 33188511494501270}
   - component: {fileID: 23485423372260102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4075963488378548}
   - component: {fileID: 108297292539671760}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2385,7 +2369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4592875549992598}
   - component: {fileID: 212909047431388112}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2402,7 +2386,7 @@ GameObject:
   - component: {fileID: 4866671543124582}
   - component: {fileID: 33195728173686268}
   - component: {fileID: 23576030944837644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,7 +2404,7 @@ GameObject:
   - component: {fileID: 33072088472585448}
   - component: {fileID: 23432704559406750}
   - component: {fileID: 95955167263036432}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2421,7 @@ GameObject:
   - component: {fileID: 4472619053439414}
   - component: {fileID: 33049145255942038}
   - component: {fileID: 23699160542255738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4911565213706438}
   - component: {fileID: 212465308575512510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4990705989991434}
   - component: {fileID: 212376279389208428}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2486,7 +2470,7 @@ GameObject:
   - component: {fileID: 4393740686689756}
   - component: {fileID: 33945093180351696}
   - component: {fileID: 23026752652184178}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2503,7 +2487,8 @@ GameObject:
   - component: {fileID: 4879930403453794}
   - component: {fileID: 33589667604612312}
   - component: {fileID: 23272744527047498}
-  m_Layer: 0
+  - component: {fileID: 65544732778952050}
+  m_Layer: 9
   m_Name: BoxingRing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2519,7 +2504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4139254101053860}
   - component: {fileID: 95607993544441086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2535,7 +2520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684572643508036}
   - component: {fileID: 95185976227057542}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnviormentWrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2551,7 +2536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650945751346242}
   - component: {fileID: 212376367244785248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2568,7 +2553,7 @@ GameObject:
   - component: {fileID: 4264136737911178}
   - component: {fileID: 33999234961620976}
   - component: {fileID: 23903177139162150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2584,7 +2569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4505722415126232}
   - component: {fileID: 108128314568879340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2600,7 +2585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4936531900445950}
   - component: {fileID: 212114365162116670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2616,7 +2601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314155059195500}
   - component: {fileID: 212245265179281496}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2633,7 +2618,7 @@ GameObject:
   - component: {fileID: 4657905981843478}
   - component: {fileID: 33899514519473638}
   - component: {fileID: 23380786688764090}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2650,7 +2635,7 @@ GameObject:
   - component: {fileID: 4924641041002970}
   - component: {fileID: 33891664784181054}
   - component: {fileID: 23208799272044260}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2666,7 +2651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4668488770901368}
   - component: {fileID: 212018445840020620}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2683,7 +2668,7 @@ GameObject:
   - component: {fileID: 4803298469432842}
   - component: {fileID: 33439315197869818}
   - component: {fileID: 23226254618404406}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2700,7 +2685,7 @@ GameObject:
   - component: {fileID: 4558205279326290}
   - component: {fileID: 33370667498238176}
   - component: {fileID: 23882150191509214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2717,7 +2702,7 @@ GameObject:
   - component: {fileID: 4230453595461250}
   - component: {fileID: 33804417782306698}
   - component: {fileID: 23014332446747138}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2733,7 +2718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4973694710993380}
   - component: {fileID: 212417231197517696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2750,7 +2735,7 @@ GameObject:
   - component: {fileID: 4273370847042390}
   - component: {fileID: 33236325868561590}
   - component: {fileID: 23175127056116442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2766,7 +2751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4497584549821036}
   - component: {fileID: 95285464781037010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2782,7 +2767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4555504424169334}
   - component: {fileID: 95302132201183808}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2798,7 +2783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4483670841546492}
   - component: {fileID: 212989472448183070}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2814,7 +2799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4346009384677812}
   - component: {fileID: 212403130490626342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2830,7 +2815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4129989401931138}
   - component: {fileID: 212839730744349958}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2846,24 +2831,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4999541786907704}
   - component: {fileID: 108801837681661978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1760376557819596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4041997015144628}
-  - component: {fileID: 108423384087660034}
-  m_Layer: 8
-  m_Name: spotLight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2878,7 +2847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4735661425993198}
   - component: {fileID: 212826000411014210}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knuckleheads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2895,7 +2864,7 @@ GameObject:
   - component: {fileID: 4081940793391168}
   - component: {fileID: 95965086315214804}
   - component: {fileID: 114457609052644010}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Boxing Roomv2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +2880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4012676629782516}
   - component: {fileID: 212377376631478144}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2928,7 +2897,7 @@ GameObject:
   - component: {fileID: 4978886206214686}
   - component: {fileID: 33636278911195792}
   - component: {fileID: 23948998842291730}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2944,7 +2913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916049437239728}
   - component: {fileID: 212307471665235522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2961,7 +2930,7 @@ GameObject:
   - component: {fileID: 4156178526811068}
   - component: {fileID: 33345231458332156}
   - component: {fileID: 23230793779867092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2978,7 +2947,7 @@ GameObject:
   - component: {fileID: 4497457256004960}
   - component: {fileID: 33424360257052848}
   - component: {fileID: 23238247146810658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2995,7 +2964,7 @@ GameObject:
   - component: {fileID: 4867700227792884}
   - component: {fileID: 33538859771329262}
   - component: {fileID: 23551544249766684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3011,7 +2980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4295084087887874}
   - component: {fileID: 95249392918150964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3028,7 +2997,7 @@ GameObject:
   - component: {fileID: 4110272089387240}
   - component: {fileID: 33775339625509288}
   - component: {fileID: 23094725031604706}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,7 +3014,7 @@ GameObject:
   - component: {fileID: 4276742720149904}
   - component: {fileID: 33890762517973246}
   - component: {fileID: 23093540146386734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3061,7 +3030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4828387489641716}
   - component: {fileID: 95681922786505736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3078,7 +3047,7 @@ GameObject:
   - component: {fileID: 4242456586562482}
   - component: {fileID: 33743543668515024}
   - component: {fileID: 23070032602635244}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3095,7 +3064,7 @@ GameObject:
   - component: {fileID: 4703763622089962}
   - component: {fileID: 33588449265111728}
   - component: {fileID: 23629637278662702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3113,7 +3082,7 @@ GameObject:
   - component: {fileID: 33906604728243394}
   - component: {fileID: 23054398427391048}
   - component: {fileID: 95705418399491770}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3130,24 +3099,8 @@ GameObject:
   - component: {fileID: 4724281048433740}
   - component: {fileID: 33101471008903114}
   - component: {fileID: 23718178644258114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1843968289256022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4466402974110530}
-  - component: {fileID: 108614906885169256}
-  m_Layer: 8
-  m_Name: spotLight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3163,7 +3116,7 @@ GameObject:
   - component: {fileID: 4325015423847996}
   - component: {fileID: 33048399217401160}
   - component: {fileID: 23577255266610470}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3180,7 +3133,7 @@ GameObject:
   - component: {fileID: 4569243520861132}
   - component: {fileID: 33002484261725938}
   - component: {fileID: 23594978748107652}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3196,7 +3149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4203014944969196}
   - component: {fileID: 212384241494436468}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3212,7 +3165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4581148728538560}
   - component: {fileID: 95706850144756876}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3229,7 +3182,7 @@ GameObject:
   - component: {fileID: 4543040249720724}
   - component: {fileID: 33414690411114546}
   - component: {fileID: 23032013868305902}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3247,7 +3200,7 @@ GameObject:
   - component: {fileID: 33230846225902832}
   - component: {fileID: 23541056178903858}
   - component: {fileID: 95853365758963316}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3263,7 +3216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4720823926047716}
   - component: {fileID: 95496215754269764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3279,7 +3232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4192685434649314}
   - component: {fileID: 212620530705896186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3295,7 +3248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4677812994135578}
   - component: {fileID: 108648494116477424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3312,7 +3265,7 @@ GameObject:
   - component: {fileID: 4687609550371622}
   - component: {fileID: 33515304864600508}
   - component: {fileID: 23149337058461478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3329,7 +3282,7 @@ GameObject:
   - component: {fileID: 4333793664994630}
   - component: {fileID: 33736891218792606}
   - component: {fileID: 23931374147499198}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3345,7 +3298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4726796125543086}
   - component: {fileID: 212820574529563108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3362,7 +3315,7 @@ GameObject:
   - component: {fileID: 4800779696409746}
   - component: {fileID: 33833859929245716}
   - component: {fileID: 23132397922528608}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3378,7 +3331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4165218045614894}
   - component: {fileID: 108556708946374932}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3394,7 +3347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4773275403504232}
   - component: {fileID: 212571797273365282}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3410,7 +3363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4998427841635278}
   - component: {fileID: 212541224711389898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3426,7 +3379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4023485313115026}
   - component: {fileID: 95176411443076680}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcadeScreen_FBX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3443,7 +3396,7 @@ GameObject:
   - component: {fileID: 4645862825989772}
   - component: {fileID: 33630148619814432}
   - component: {fileID: 23774708966677872}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3460,7 +3413,7 @@ GameObject:
   - component: {fileID: 4252450184434960}
   - component: {fileID: 33093477638537830}
   - component: {fileID: 23587211093189760}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3478,7 +3431,7 @@ GameObject:
   - component: {fileID: 33740106861919518}
   - component: {fileID: 23220360458741620}
   - component: {fileID: 95592797923894512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,7 +3447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4172182754851198}
   - component: {fileID: 108548609441943086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3511,7 +3464,7 @@ GameObject:
   - component: {fileID: 4018820600417292}
   - component: {fileID: 33309944843987480}
   - component: {fileID: 23897467362906458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ropes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3527,7 +3480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4032048967871892}
   - component: {fileID: 212010978012670830}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Just
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3544,7 +3497,7 @@ GameObject:
   - component: {fileID: 4245916072645338}
   - component: {fileID: 33253463108712436}
   - component: {fileID: 23496535859421558}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hekje (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3561,7 +3514,7 @@ GameObject:
   - component: {fileID: 4358050199393234}
   - component: {fileID: 33991300256136268}
   - component: {fileID: 23164685307355126}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paaltje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3577,7 +3530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4263134327000324}
   - component: {fileID: 212205443514888948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3593,7 +3546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4089777247382408}
   - component: {fileID: 212068640456256922}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: logo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3611,7 +3564,7 @@ GameObject:
   - component: {fileID: 33503103969880200}
   - component: {fileID: 23266800527882792}
   - component: {fileID: 95203463845858354}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arcade_prop (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3627,7 +3580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4989594060623224}
   - component: {fileID: 212041559763639046}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: logo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3727,19 +3680,6 @@ Transform:
   m_Father: {fileID: 4650945751346242}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!4 &4041997015144628
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1760376557819596}
-  m_LocalRotation: {x: 0.85678667, y: -0.11950934, z: 0.22957529, w: 0.4460149}
-  m_LocalPosition: {x: -18.740988, y: 19.463427, z: 19.171806}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4046412246813212
 Transform:
   m_ObjectHideFlags: 1
@@ -3813,12 +3753,12 @@ Transform:
   m_GameObject: {fileID: 1228499676875948}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000044703478}
   m_LocalPosition: {x: -2.4699998, y: -1.96, z: -12.186}
-  m_LocalScale: {x: 0.16537555, y: 0.16537555, z: 0.16537555}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4933895279751014}
   - {fileID: 4720823926047716}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!4 &4075068824986026
 Transform:
@@ -3853,16 +3793,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1776255230236872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.232, y: -0.506, z: 0}
+  m_LocalPosition: {x: 0, y: -0.45, z: 0}
   m_LocalScale: {x: 0.657, y: 0.657, z: 0.657}
   m_Children:
   - {fileID: 4687355446044774}
   - {fileID: 4879930403453794}
   - {fileID: 4684572643508036}
-  - {fileID: 4837096385979836}
-  - {fileID: 4466402974110530}
-  - {fileID: 4041997015144628}
-  - {fileID: 4249372132895222}
   - {fileID: 4089777247382408}
   - {fileID: 4989594060623224}
   - {fileID: 4660124530554130}
@@ -3880,6 +3816,7 @@ Transform:
   - {fileID: 4516941046426540}
   - {fileID: 4726955221868036}
   - {fileID: 4230921602972502}
+  - {fileID: 4351656163351682}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3907,7 +3844,7 @@ Transform:
   m_LocalScale: {x: 0.28052667, y: 0.28052667, z: 0.28052667}
   m_Children: []
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!4 &4098508569653154
 Transform:
@@ -3956,12 +3893,12 @@ Transform:
   m_GameObject: {fileID: 1311906357362180}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000044703478}
   m_LocalPosition: {x: 6.85, y: -1.69, z: -12.182}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4722416618122754}
   - {fileID: 4295084087887874}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!4 &4121410329247130
 Transform:
@@ -4200,12 +4137,12 @@ Transform:
   m_GameObject: {fileID: 1474694137539628}
   m_LocalRotation: {x: -0, y: -0.7071069, z: -0, w: -0.7071067}
   m_LocalPosition: {x: 12.63, y: -1.56, z: 3.95}
-  m_LocalScale: {x: 0.2, y: 0.2253367, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4360774724433988}
   - {fileID: 4023485313115026}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 23
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -270, z: 0}
 --- !u!4 &4242456586562482
 Transform:
@@ -4260,19 +4197,6 @@ Transform:
   - {fileID: 4853996229495796}
   m_Father: {fileID: 4414438099554112}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4249372132895222
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1486293025614810}
-  m_LocalRotation: {x: 0.85678667, y: 0.11950934, z: -0.22957529, w: 0.4460149}
-  m_LocalPosition: {x: -10.914629, y: 19.463427, z: 19.171806}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4250118345483658
 Transform:
@@ -4576,6 +4500,19 @@ Transform:
   m_Father: {fileID: 4603229268581924}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4351656163351682
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583751968708848}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: -2.03, z: 0}
+  m_LocalScale: {x: 0.18079847, y: 0.18079856, z: 0.18079856}
+  m_Children: []
+  m_Father: {fileID: 4081940793391168}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!4 &4358050199393234
 Transform:
   m_ObjectHideFlags: 1
@@ -4668,12 +4605,12 @@ Transform:
   m_GameObject: {fileID: 1128008656662944}
   m_LocalRotation: {x: -0, y: -0.0000008344649, z: -0, w: 1}
   m_LocalPosition: {x: 2.74, y: -1.69, z: 12.59}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4754040907654436}
   - {fileID: 4121958649692256}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 20
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4385858803164862
 Transform:
@@ -4791,12 +4728,12 @@ Transform:
   m_GameObject: {fileID: 1549280693238332}
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.70710653}
   m_LocalPosition: {x: -12.58, y: -1.8600001, z: 4.36}
-  m_LocalScale: {x: 0.1818889, y: 0.1818889, z: 0.1818889}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4911033401499346}
   - {fileID: 4247805763635842}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!4 &4419381914139536
 Transform:
@@ -4875,25 +4812,12 @@ Transform:
   m_GameObject: {fileID: 1128314568005638}
   m_LocalRotation: {x: -0, y: -0.00000044703478, z: -0, w: 1}
   m_LocalPosition: {x: -10.43, y: -1.69, z: 12.57}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4314155059195500}
   - {fileID: 4555504424169334}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4466402974110530
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1843968289256022}
-  m_LocalRotation: {x: 0.22957529, y: 0.4460149, z: -0.85678667, w: 0.11950934}
-  m_LocalPosition: {x: -10.34, y: 19.34, z: 5.5626283}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 4
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4466695337982428
 Transform:
@@ -5009,12 +4933,12 @@ Transform:
   m_GameObject: {fileID: 1041183340311696}
   m_LocalRotation: {x: -0, y: -0.0000008344649, z: -0, w: 1}
   m_LocalPosition: {x: -6.3, y: -1.42, z: 12.59}
-  m_LocalScale: {x: 0.2, y: 0.22992836, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4631905712183522}
   - {fileID: 4581148728538560}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 21
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4521619633046134
 Transform:
@@ -5037,12 +4961,12 @@ Transform:
   m_GameObject: {fileID: 1959898210615412}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000044703478}
   m_LocalPosition: {x: 4.44, y: -1.96, z: -12.186}
-  m_LocalScale: {x: 0.16537778, y: 0.16537778, z: 0.16537778}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4592875549992598}
   - {fileID: 4828387489641716}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!4 &4536015601621070
 Transform:
@@ -5216,12 +5140,12 @@ Transform:
   m_GameObject: {fileID: 1870106838978180}
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -12.47, y: -1.74, z: -3.79}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4161655227152196}
   - {fileID: 4347282412572276}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!4 &4607879358236378
 Transform:
@@ -5423,12 +5347,12 @@ Transform:
   m_GameObject: {fileID: 1833865233819550}
   m_LocalRotation: {x: -0, y: -0.00000044703478, z: -0, w: 1}
   m_LocalPosition: {x: 10.74, y: -1.0300003, z: 15.72}
-  m_LocalScale: {x: 0.2584889, y: 0.2584889, z: 0.2584889}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4735661425993198}
   - {fileID: 4748425294779778}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4668488770901368
 Transform:
@@ -5785,12 +5709,12 @@ Transform:
   m_GameObject: {fileID: 1630630112649882}
   m_LocalRotation: {x: -0, y: 0.00000019371507, z: -0, w: -1}
   m_LocalPosition: {x: 9.55, y: -1.69, z: 12.67}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4281471118089792}
   - {fileID: 4371762760731140}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 22
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -360, z: 0}
 --- !u!4 &4730530697304016
 Transform:
@@ -5979,12 +5903,12 @@ Transform:
   m_GameObject: {fileID: 1164748855504064}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000044703478}
   m_LocalPosition: {x: -7.4, y: -2.12, z: -12.182}
-  m_LocalScale: {x: 0.2, y: 0.16213986, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4452860141066908}
   - {fileID: 4139254101053860}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!4 &4784272612926438
 Transform:
@@ -6085,12 +6009,12 @@ Transform:
   m_GameObject: {fileID: 1989769363274332}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000044703478}
   m_LocalPosition: {x: -0.04, y: -1.69, z: -12.182}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4650945751346242}
   - {fileID: 4858338529085682}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 14
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
 --- !u!4 &4812940482261858
 Transform:
@@ -6167,12 +6091,12 @@ Transform:
   m_GameObject: {fileID: 1418865950846600}
   m_LocalRotation: {x: -0, y: -0.70710695, z: -0, w: -0.7071066}
   m_LocalPosition: {x: 12.26, y: -1.52, z: -3.79}
-  m_LocalScale: {x: 0.19761476, y: 0.19761479, z: 0.19761479}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4385858803164862}
   - {fileID: 4497584549821036}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -270, z: 0}
 --- !u!4 &4833347055824766
 Transform:
@@ -6187,19 +6111,6 @@ Transform:
   m_Father: {fileID: 4911033401499346}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!4 &4837096385979836
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1516091332225042}
-  m_LocalRotation: {x: -0.22957529, y: 0.4460149, z: -0.85678667, w: -0.11950934}
-  m_LocalPosition: {x: -18.01, y: 19.2, z: 5.5626283}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4838778043067816
 Transform:
   m_ObjectHideFlags: 1
@@ -6562,12 +6473,12 @@ Transform:
   m_GameObject: {fileID: 1371057980045466}
   m_LocalRotation: {x: -0, y: -0.00000044703478, z: -0, w: 1}
   m_LocalPosition: {x: -0.16, y: -1.86, z: 12.583}
-  m_LocalScale: {x: 0.18189375, y: 0.18189378, z: 0.18189378}
+  m_LocalScale: {x: 0.19, y: 0.2, z: 0.21}
   m_Children:
   - {fileID: 4333220502468746}
   - {fileID: 4643891637107436}
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 12
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4966866311813144
 Transform:
@@ -6619,7 +6530,7 @@ Transform:
   m_LocalScale: {x: 0.28052667, y: 0.28052667, z: 0.28052667}
   m_Children: []
   m_Father: {fileID: 4081940793391168}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!4 &4990330054706900
 Transform:
@@ -11032,6 +10943,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1672403590442588}
   m_Mesh: {fileID: 4300000, guid: b5289d28642fa9a4a9f3697b2e5eef70, type: 3}
+--- !u!65 &65544732778952050
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657695662001578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1.71, z: 5}
+  m_Center: {x: 0, y: -0.79490733, z: 0}
 --- !u!95 &95105536582487812
 Animator:
   serializedVersion: 3
@@ -11629,42 +11552,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!108 &108177128734246060
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1486293025614810}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 0.12800002, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 10
-  m_SpotAngle: 132.57866
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!108 &108178136904364408
 Light:
   m_ObjectHideFlags: 1
@@ -11845,78 +11732,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!108 &108423384087660034
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1760376557819596}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 0.12800002, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 10
-  m_SpotAngle: 132.57866
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!108 &108477230973102362
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1516091332225042}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 0.12800002, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 10
-  m_SpotAngle: 132.57866
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!108 &108478232232140630
 Light:
   m_ObjectHideFlags: 1
@@ -12077,42 +11892,6 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!108 &108614906885169256
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1843968289256022}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 0.12800002, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 10
-  m_SpotAngle: 132.57866
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13254,6 +13033,50 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10, y: 10}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212282532495798526
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583751968708848}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b7c2c7116ecec76409b6706201e79baf, type: 3}
+  m_Color: {r: 0.709, g: 0.494173, b: 0.494173, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 30, y: 27.849998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

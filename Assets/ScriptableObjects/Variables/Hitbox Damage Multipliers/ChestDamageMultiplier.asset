@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4f27e27e2466e42aa46b52759d4562, type: 3}
   m_Name: ChestDamageMultiplier
   m_EditorClassIdentifier: 
-  initialValue: 100
+  initialValue: 90

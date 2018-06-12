@@ -74,7 +74,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.71
+    - _Opacity: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -87,8 +87,8 @@ Material:
     - _Base: {r: 1, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fresnel2: {r: 0, g: 0.5448277, b: 1, a: 0.668}
-    - _Fresnel3: {r: 0, g: 0.7103448, b: 1, a: 1}
+    - _Fresnel2: {r: 0, g: 0.31247473, b: 0.5735294, a: 0.668}
+    - _Fresnel3: {r: 0, g: 0.49097362, b: 0.6911765, a: 1}
     - _Lines: {r: 0.16911763, g: 0.44989866, b: 1, a: 1}
     - _fresnel1: {r: 0, g: 0.3275862, b: 0.5588235, a: 1}
     - _node_3720: {r: 1, g: 0, b: 0, a: 1}

@@ -64,6 +64,7 @@ public class Player : Photon.MonoBehaviour {
         onKnockedOutEvent.Raise();
         isKnockedOut = true;
         enabled = false;
+        Ragdoll.Instance.Dead();
     }
 
     private void PlayRandomHitAnimation() {

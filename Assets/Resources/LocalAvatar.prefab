@@ -99,7 +99,6 @@ Transform:
   - {fileID: 448722}
   - {fileID: 4581494204247758}
   - {fileID: 4468369968689664}
-  - {fileID: 4441340245452654}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -514,7 +513,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1543756191551498
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -880,12 +879,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543756191551498}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.411, z: 0.181}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.411, z: 0.18100002}
+  m_LocalScale: {x: 1, y: 0.6070987, z: 1}
   m_Children: []
-  m_Father: {fileID: 463470}
-  m_RootOrder: 9
+  m_Father: {fileID: 4474990683020808}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4468369968689664
 Transform:
@@ -910,6 +909,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4441340245452654}
   - {fileID: 224413447110661424}
   m_Father: {fileID: 4094933907092602}
   m_RootOrder: 1
@@ -2061,8 +2061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a186e2d41a75b4fb2cda13b7ac1a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightGlove: {fileID: 4000011212216358}
-  leftGlove: {fileID: 4000013364346644}
+  rightGlove: {fileID: 114584886908023172}
+  leftGlove: {fileID: 114306569078654586}
   shieldObject: {fileID: 0}
   maxDistanceBetweenGloves: 1
   isBlocking: 0
@@ -2156,9 +2156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeValue: 1
-  left: {fileID: 114306569078654586}
-  right: {fileID: 114584886908023172}
-  minRechargeDistance: 0.6
 --- !u!114 &114584886908023172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2568,11 +2565,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 1543756191551498}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 2
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: -0.1}
 --- !u!222 &222589570375581294
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2629,7 +2626,7 @@ RectTransform:
   m_Children:
   - {fileID: 224289889177734326}
   m_Father: {fileID: 4474990683020808}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockManager : MonoBehaviour {
 
-    public Transform rightGlove, leftGlove;
+    public Glove rightGlove, leftGlove;
     public GameObject shieldObject;
     public float maxDistanceBetweenGloves;
 
@@ -69,19 +69,20 @@ public class BlockManager : MonoBehaviour {
     }
 
     private void Block() {
-        shieldObject.transform.position = (rightGlove.position + leftGlove.position) / 2;
-        shieldRot = Quaternion.Slerp(rightGlove.rotation, leftGlove.rotation, 0.5f);
+        shieldObject.transform.position = (rightGlove.transform.position + leftGlove.transform.position) / 2;
+        shieldRot = Quaternion.Slerp(rightGlove.transform.rotation, leftGlove.transform.rotation, 0.5f);
         shieldObject.transform.rotation = shieldRot;
     }
 
     private bool IsBlocking() {
         return DistanceRequirementMet() &&
                OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0 &&
-               OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > 0;
+               OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > 0 &&
+               rightGlove.charge.runTimeValue > 0 && leftGlove.charge.runTimeValue > 0;
     }
 
     private bool DistanceRequirementMet() {
-        return Vector3.Distance(rightGlove.position, leftGlove.position) < maxDistanceBetweenGloves;
+        return Vector3.Distance(rightGlove.transform.position, leftGlove.transform.position) < maxDistanceBetweenGloves;
     }
 
     private void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
