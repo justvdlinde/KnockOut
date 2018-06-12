@@ -8,6 +8,7 @@ public class Player : Photon.MonoBehaviour {
     public float startingHealth = 100;
     public FloatVariable healthPoints;
     public GameEvent onDamageTakenEvent;
+    public GameEvent onKnockedOutEvent;
     public float health;
     public BlockManager blockManager;
 
@@ -59,6 +60,8 @@ public class Player : Photon.MonoBehaviour {
     private void KnockOut() {
         Debug.Log("KNOCK-OUT");
         sm.KnockoutSound();
+        onKnockedOutEvent.Raise();
+        enabled = false;
     }
 
     private void PlayRandomHitAnimation() {
