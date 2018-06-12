@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114434818328060226}
   - component: {fileID: 114685912668573648}
   - component: {fileID: 82059027960601628}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: ShieldBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 64320915044568150}
   - component: {fileID: 114916675402680184}
   - component: {fileID: 114668823958582406}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Shield_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,8 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hit: {fileID: 8300000, guid: 6a30719274b686e4cbc45d9792bdbd0b, type: 3}
-  down: {fileID: 8300000, guid: b9ebd2b87d74fb5459c3fba4b4d13af8, type: 3}
-  up: {fileID: 8300000, guid: 73cab630277e58144999d1b2df3eb914, type: 3}
+  down: {fileID: 8300000, guid: fe1d5156a25c9584490b5aa5be1cb17d, type: 3}
+  up: {fileID: 8300000, guid: a16301055b5a66648ba46c8b716cf2a0, type: 3}
   audioSource: {fileID: 82059027960601628}
   isLocal: 1
 --- !u!114 &114434818328060226
