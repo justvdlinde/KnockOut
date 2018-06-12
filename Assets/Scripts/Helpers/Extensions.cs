@@ -20,6 +20,6 @@ public static class Extensions2 {
     }
 
     public static T GetRandom<T>(this T[] arr) {
-        return arr[Random.Range(0, arr.Length - 1)];
+        return arr[Random.Range(0, arr.Length)];
     }
 }

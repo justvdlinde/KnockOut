@@ -4,19 +4,30 @@ using UnityEngine;
 
 public class ArcadeSpriteController : MonoBehaviour {
 
-    public FloatMinMax minMax = new FloatMinMax(.2f, 2f);
+    public FloatMinMax switchTime = new FloatMinMax(.2f, 2f);
 
-    private SpriteRenderer rend;
+    public GameObject[] rends;
+    public GameObject currentRend;
 
     private void Start() {
-        rend = GetComponent<SpriteRenderer>();
+        rends = new GameObject[transform.childCount];
+        for (int i = 0; i < transform.childCount; i++) {
+            rends[i] = transform.GetChild(i).gameObject;
+            rends[i].SetActive(false);
+        }
+
+        currentRend = rends.GetRandom();
         StartCoroutine(Wait());
     }
 
     private IEnumerator Wait() {
-        float rnd = minMax.GetRandom();
-        yield return new WaitForSeconds(rnd);
-        rend.enabled = !rend.enabled;
+        float rndTime = switchTime.GetRandom();
+        GameObject rndSprite = rends.GetRandom();
+        Debug.Log("new sprite: " + rndSprite);
+        currentRend.SetActive(false);
+        currentRend = rndSprite;
+        currentRend.SetActive(true);
+        yield return new WaitForSeconds(rndTime);
         StartCoroutine(Wait());
     }
 }
