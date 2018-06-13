@@ -20,5 +20,6 @@ public class SoundManager : MonoBehaviour {
         AudioSource audio = GetComponent<AudioSource>();
         audio.PlayOneShot(knockOut);
         audio.PlayOneShot(cheer);
+        
     }
 }

@@ -72,7 +72,7 @@ Transform:
   m_GameObject: {fileID: 1462486614081758}
   m_LocalRotation: {x: -0.7074917, y: 0.029430838, z: 0.15265757, w: 0.6894092}
   m_LocalPosition: {x: -0.101305306, y: 0.27941704, z: 0.9427147}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children:
   - {fileID: 4582850341835696}
   m_Father: {fileID: 0}
@@ -200,7 +200,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
